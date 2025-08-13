@@ -3,7 +3,8 @@
 DISC DEXPI Project:
 - symbol library with reference Symbol ID and DEXPI class mapping
 - custom DEXPI attribute list and class hierarchy reference
-- NOAKA drafting and DEXPI modelling requirements
+- DISC drafting and DEXPI modelling requirements
+- Blueprint files
 
 ProteusPIDSchema 4.1.1 noaka.xsd - includes new approved Note class and should be used to verify the Blueprint file.
 
