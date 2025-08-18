@@ -1,0 +1,33 @@
+<Model name="Profile" uri="http://www.dexpi.org/specification/Temp/Profile">
+  <Import source="http://www.dexpi.org/specification/2.0/Core" prefix="Core"/>
+  <ConcreteClass name="Symbol">
+    <CompositionProperty name="Variants" isOrdered="false" lower="0">
+      <ClassReference type="/SymbolVariant"/>
+    </CompositionProperty>
+  </ConcreteClass>
+  <ConcreteClass name="SymbolCatalogue">
+    <CompositionProperty name="Symbols" isOrdered="false" lower="0">
+      <ClassReference type="/Symbol"/>
+    </CompositionProperty>
+  </ConcreteClass>
+  <ConcreteClass name="SymbolVariant" superTypes="Core/Diagram.Shape">
+    <DataProperty name="Condition" isOrdered="false" isUnique="false" lower="0" upper="1">
+      <DataTypeReference type="Builtin/String"/>
+    </DataProperty>
+    <DataProperty name="MaxX" isOrdered="false" isUnique="false" lower="1" upper="1">
+      <DataTypeReference type="Builtin/Double"/>
+    </DataProperty>
+    <DataProperty name="MaxY" isOrdered="false" isUnique="false" lower="1" upper="1">
+      <DataTypeReference type="Builtin/Double"/>
+    </DataProperty>
+    <DataProperty name="MinX" isOrdered="false" isUnique="false" lower="1" upper="1">
+      <DataTypeReference type="Builtin/Double"/>
+    </DataProperty>
+    <DataProperty name="MinY" isOrdered="false" isUnique="false" lower="1" upper="1">
+      <DataTypeReference type="Builtin/Double"/>
+    </DataProperty>
+    <DataProperty name="VariantNumber" isOrdered="false" isUnique="false" lower="1" upper="1">
+      <DataTypeReference type="Builtin/Integer"/>
+    </DataProperty>
+  </ConcreteClass>
+</Model>
