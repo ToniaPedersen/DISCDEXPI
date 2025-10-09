@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2025-08-07T10:29:58.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="lTifr9TiBk-g1MqiWxVO" compressed="false" version="23.0.2" type="device">
+<mxfile host="Electron" modified="2025-10-09T12:53:30.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="n7yOxf5fx3DloI1lpOKL" compressed="false" version="21.2.1" type="device">
   <diagram name="PE026A" id="1CP9VX86ncTdAmcYDIcw">
-    <mxGraphModel dx="1366" dy="796" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="493" dy="289" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-0" />
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-1" value="Grid" style="locked=1;" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
@@ -865,14 +865,14 @@
         <object label="Symbol" Width="32" Height="32" UoM="mm" id="22vkG-h5v2N9dKBLQ-ZE-138">
           <mxCell style="locked=1;" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
         </object>
-        <mxCell id="m6T33e_Z8T_IFA4XhIIA-17" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;size=64;" vertex="1" parent="22vkG-h5v2N9dKBLQ-ZE-138">
-          <mxGeometry x="416" y="318" width="254" height="256" as="geometry" />
+        <mxCell id="m6T33e_Z8T_IFA4XhIIA-17" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;size=64;" parent="22vkG-h5v2N9dKBLQ-ZE-138" vertex="1">
+          <mxGeometry x="416" y="320" width="256" height="256" as="geometry" />
         </mxCell>
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-124" value="Connection" style="" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-136" value="Origo" style="locked=1;" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
         <object label="origo" id="pEtjtcBWMfalJ67Uv4dw-28">
           <mxCell style="vsdxID=1407;fillColor=none;gradientColor=none;shape=stencil(rVFbDsIgEDwNnyQU4glqvcfGblsilmZBS28vZGMsxg9j/JvZmX1kR5g2TLCg0CpE8hdcbR8nYY5CaztPSDZmJEwnTDt4wpH8be6ZL1CcBV39vUxI3KdKh1YbswPTEzuBzlmiVGmKau9zUKM+jlJJQrJBko8QrZ+rrQ5oRJnXyMHBWElhRVx25ebnw/5zVvPFWRm83jxY5zilvf4eSy5xpKZ7AA==);strokeColor=#ff0000;strokeWidth=1;points=[[0.5,0.5,0,0,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;aspect=fixed;noLabel=1;snapToPoint=1;" parent="22vkG-h5v2N9dKBLQ-ZE-136" vertex="1">
-            <mxGeometry x="539" y="314" width="8" height="8" as="geometry" />
+            <mxGeometry x="540" y="316" width="8" height="8" as="geometry" />
           </mxCell>
         </object>
       </root>
