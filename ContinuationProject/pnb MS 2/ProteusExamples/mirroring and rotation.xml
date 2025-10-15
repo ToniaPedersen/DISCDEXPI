@@ -1,0 +1,97 @@
+<Model name="example" uri="http://www.example.org">
+  <Import prefix="Core" source="https://data.dexpi.org/models/2.0.0/Core.xml"/>
+  <Import prefix="Plant" source="https://data.dexpi.org/models/2.0.0/Plant.xml"/>
+  <Object type="Core/EngineeringModel">
+    <Components property="ConceptualModel">
+      <Object type="Plant/PlantModel">
+        <Components property="PipingNetworkSystems">
+          <Object type="Plant/Piping.PipingNetworkSystem">
+            <Components property="Segments">
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.PlugValve">
+                    <Data property="PipingComponentNumber">
+                      <String>(0, 0), 0°, not mirrored</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.PlugValve">
+                    <Data property="PipingComponentNumber">
+                      <String>(0, 0), 90°, not mirrored</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.PlugValve">
+                    <Data property="PipingComponentNumber">
+                      <String>(0, 0), 180°, not mirrored</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.PlugValve">
+                    <Data property="PipingComponentNumber">
+                      <String>(0, 0), 270°, not mirrored</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.PlugValve">
+                    <Data property="PipingComponentNumber">
+                      <String>(0, 0), 0°, mirrored</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.PlugValve">
+                    <Data property="PipingComponentNumber">
+                      <String>(0, 0), 90°, mirrored</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.PlugValve">
+                    <Data property="PipingComponentNumber">
+                      <String>(0, 0), 180°, mirrored</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.PlugValve">
+                    <Data property="PipingComponentNumber">
+                      <String>(0, 0), 270°, mirrored</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+            </Components>
+          </Object>
+        </Components>
+      </Object>
+    </Components>
+    <Data property="OriginatingSystemName">
+      <String>P&amp;ID Toolbox</String>
+    </Data>
+    <Data property="OriginatingSystemVendorName">
+      <String>pnb plants &amp; bytes GmbH, Aachen, Germany</String>
+    </Data>
+    <Data property="OriginatingSystemVersion">
+      <String>0.9</String>
+    </Data>
+  </Object>
+</Model>

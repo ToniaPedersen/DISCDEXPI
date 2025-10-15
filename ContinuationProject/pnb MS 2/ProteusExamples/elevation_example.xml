@@ -1,0 +1,30 @@
+<Model name="example" uri="http://www.example.org">
+  <Import prefix="Core" source="https://data.dexpi.org/models/2.0.0/Core.xml"/>
+  <Import prefix="DiscProfile" source="http://www.to.define"/>
+  <Import prefix="Plant" source="https://data.dexpi.org/models/2.0.0/Plant.xml"/>
+  <Object type="Core/EngineeringModel">
+    <Components property="ConceptualModel">
+      <Object type="Plant/PlantModel">
+        <Components property="TaggedPlantItems">
+          <Object type="Plant/ProcessEquipment.PressureVessel">
+            <Data property="DiscProfile/Elevation">
+              <String>EL. 500000</String>
+            </Data>
+          </Object>
+        </Components>
+      </Object>
+    </Components>
+    <Data property="ExportDateTime">
+      <Undefined/>
+    </Data>
+    <Data property="OriginatingSystemName">
+      <Undefined/>
+    </Data>
+    <Data property="OriginatingSystemVendorName">
+      <Undefined/>
+    </Data>
+    <Data property="OriginatingSystemVersion">
+      <Undefined/>
+    </Data>
+  </Object>
+</Model>
