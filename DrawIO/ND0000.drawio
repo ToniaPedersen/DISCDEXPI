@@ -1,0 +1,28 @@
+<mxfile host="Electron" modified="2025-10-14T09:19:03.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="JLeAM4Bevu6dPd-Rz4kz" compressed="false" version="21.2.1" type="device">
+  <diagram name="ND0000" id="MFOYhhMmj8T_fKkgA4PG">
+    <mxGraphModel dx="138" dy="81" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="dfkppuf87gNgCVtLxSrG-0" />
+        <mxCell id="dfkppuf87gNgCVtLxSrG-124" value="Connection" style="locked=1;" parent="dfkppuf87gNgCVtLxSrG-0" />
+        <object label="Connection" PipingConnector="Y" LabelConnector="N" SignalConnector="N" Direction="0, 90, 180, 270" AuxiliaryConnector="N" id="LxGGCtFgPDuxwpYXM28w-0">
+          <mxCell style="vsdxID=1407;fillColor=none;gradientColor=none;shape=stencil(rVFbDsIgEDwNnyQU4glqvcfGblsilmZBS28vZGMsxg9j/JvZmX1kR5g2TLCg0CpE8hdcbR8nYY5CaztPSDZmJEwnTDt4wpH8be6ZL1CcBV39vUxI3KdKh1YbswPTEzuBzlmiVGmKau9zUKM+jlJJQrJBko8QrZ+rrQ5oRJnXyMHBWElhRVx25ebnw/5zVvPFWRm83jxY5zilvf4eSy5xpKZ7AA==);strokeColor=#00FF00;strokeWidth=1;points=[[0.5,0.5,0,0,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;aspect=fixed;noLabel=1;snapToPoint=1;container=0;fontSize=16;" parent="dfkppuf87gNgCVtLxSrG-124" vertex="1">
+            <mxGeometry x="298" y="138" width="12" height="12" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="dfkppuf87gNgCVtLxSrG-129" value="Label" style="locked=1;" parent="dfkppuf87gNgCVtLxSrG-0" />
+        <mxCell id="dfkppuf87gNgCVtLxSrG-133" value="Origo" style="locked=1;" parent="dfkppuf87gNgCVtLxSrG-0" />
+        <object label="origo" id="8oln3En7BdZpSJeIlfM0-21">
+          <mxCell style="vsdxID=1407;fillColor=none;gradientColor=none;shape=stencil(rVFbDsIgEDwNnyQU4glqvcfGblsilmZBS28vZGMsxg9j/JvZmX1kR5g2TLCg0CpE8hdcbR8nYY5CaztPSDZmJEwnTDt4wpH8be6ZL1CcBV39vUxI3KdKh1YbswPTEzuBzlmiVGmKau9zUKM+jlJJQrJBko8QrZ+rrQ5oRJnXyMHBWElhRVx25ebnw/5zVvPFWRm83jxY5zilvf4eSy5xpKZ7AA==);strokeColor=#ff0000;strokeWidth=1;points=[[0.5,0.5,0,0,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;aspect=fixed;noLabel=1;snapToPoint=1;" parent="dfkppuf87gNgCVtLxSrG-133" vertex="1">
+            <mxGeometry x="300.0009" y="140" width="7.874" height="7.87" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Symbol" Width="0" Height="0" UoM="mm" id="dfkppuf87gNgCVtLxSrG-134">
+          <mxCell style="locked=1;" parent="dfkppuf87gNgCVtLxSrG-0" />
+        </object>
+        <mxCell id="TLKrsVqt_wnBqTFPdoy2-0" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=0;opacity=0;fillColor=none;strokeColor=none;" parent="dfkppuf87gNgCVtLxSrG-134" vertex="1">
+          <mxGeometry x="303" y="143" width="1" height="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
