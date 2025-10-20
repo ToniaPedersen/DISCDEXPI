@@ -1,0 +1,72 @@
+<Model name="example" uri="http://www.example.org">
+  <Import prefix="Core" source="https://data.dexpi.org/models/2.0.0/Core.xml"/>
+  <Import prefix="DiscProfile" source="http://www.to.define"/>
+  <Import prefix="Plant" source="https://data.dexpi.org/models/2.0.0/Plant.xml"/>
+  <Object type="Core/EngineeringModel">
+    <Components property="ConceptualModel">
+      <Object type="Plant/PlantModel">
+        <Components property="InstrumentationLoopFunctions">
+          <Object type="Plant/Instrumentation.InstrumentationLoopFunction">
+            <Data property="InstrumentationLoopFunctionNumber">
+              <String>0003</String>
+            </Data>
+            <References objects="#ProcessPlant1" property="ParentStructure"/>
+            <References objects="#PlantSystem1" property="PlantSystem"/>
+            <References objects="#ProcessInstrumentationFunction1" property="ProcessInstrumentationFunctions"/>
+          </Object>
+        </Components>
+        <Components property="PlantStructureItems">
+          <Object id="ProcessPlant1" type="Plant/PlantStructure.ProcessPlant">
+            <Data property="ProcessPlantIdentificationCode">
+              <String>D</String>
+            </Data>
+          </Object>
+          <Object id="PlantSystem1" type="Plant/PlantStructure.PlantSystem">
+            <Data property="PlantSystemIdentificationCode">
+              <String>20</String>
+            </Data>
+          </Object>
+        </Components>
+        <Components property="ProcessInstrumentationFunctions">
+          <Object id="ProcessInstrumentationFunction1" type="Plant/Instrumentation.ProcessInstrumentationFunction">
+            <References objects="#ProcessPlant1" property="ParentStructure"/>
+            <References objects="#PlantSystem1" property="PlantSystem"/>
+            <Data property="ProcessInstrumentationFunctionNumber">
+              <String>0003</String>
+            </Data>
+            <Components property="ProcessSignalGeneratingFunctions">
+              <Object id="ProcessSignalGeneratingFunction1" type="Plant/Instrumentation.ProcessSignalGeneratingFunction"/>
+            </Components>
+            <Components property="SignalConveyingFunctions">
+              <Object type="Plant/Instrumentation.MeasuringLineFunction">
+                <References objects="#ProcessSignalGeneratingFunction1" property="Source"/>
+                <References objects="#ProcessInstrumentationFunction1" property="Target"/>
+              </Object>
+              <Object type="Plant/Instrumentation.SignalConveyingFunction">
+                <Data property="DiscProfile/SignalConveyingFunctionTypeRepresentation">
+                  <String>SignalConveying</String>
+                </Data>
+                <References objects="#ProcessInstrumentationFunction1" property="Source"/>
+              </Object>
+            </Components>
+            <Data property="DiscProfile/TagSuffix">
+              <String></String>
+            </Data>
+            <Data property="DiscProfile/TagType">
+              <String>TI</String>
+            </Data>
+          </Object>
+        </Components>
+      </Object>
+    </Components>
+    <Data property="OriginatingSystemName">
+      <String>P&amp;ID Toolbox</String>
+    </Data>
+    <Data property="OriginatingSystemVendorName">
+      <String>pnb plants &amp; bytes GmbH, Aachen, Germany</String>
+    </Data>
+    <Data property="OriginatingSystemVersion">
+      <String>0.9</String>
+    </Data>
+  </Object>
+</Model>

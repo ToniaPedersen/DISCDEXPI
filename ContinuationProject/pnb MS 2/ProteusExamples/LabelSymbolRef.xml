@@ -1,0 +1,45 @@
+<Model name="example" uri="http://www.example.org">
+  <Import prefix="Core" source="https://data.dexpi.org/models/2.0.0/Core.xml"/>
+  <Import prefix="Plant" source="https://data.dexpi.org/models/2.0.0/Plant.xml"/>
+  <Object type="Core/EngineeringModel">
+    <Components property="ConceptualModel">
+      <Object type="Plant/PlantModel">
+        <Components property="PipingNetworkSystems">
+          <Object type="Plant/Piping.PipingNetworkSystem">
+            <Components property="Segments">
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.SafetyValveOrFitting">
+                    <Components property="Nodes">
+                      <Object type="Plant/Piping.PipingNode"/>
+                      <Object type="Plant/Piping.PipingNode"/>
+                    </Components>
+                    <Components property="PersistentIdentifiers">
+                      <Object type="Core/PersistentIdentifier">
+                        <Data property="Context">
+                          <String>SmartPID - AskjaPFD</String>
+                        </Data>
+                        <Data property="Value">
+                          <String>SPACD7FD0E0EE147A0B52130CAB16EBA17</String>
+                        </Data>
+                      </Object>
+                    </Components>
+                  </Object>
+                </Components>
+              </Object>
+            </Components>
+          </Object>
+        </Components>
+      </Object>
+    </Components>
+    <Data property="OriginatingSystemName">
+      <String>NOAKA Pilot Test Case</String>
+    </Data>
+    <Data property="OriginatingSystemVendorName">
+      <Undefined/>
+    </Data>
+    <Data property="OriginatingSystemVersion">
+      <Undefined/>
+    </Data>
+  </Object>
+</Model>

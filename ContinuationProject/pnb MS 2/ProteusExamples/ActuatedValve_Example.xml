@@ -1,0 +1,123 @@
+<Model name="example" uri="http://www.example.org">
+  <Import prefix="Core" source="https://data.dexpi.org/models/2.0.0/Core.xml"/>
+  <Import prefix="DiscProfile" source="http://www.to.define"/>
+  <Import prefix="Plant" source="https://data.dexpi.org/models/2.0.0/Plant.xml"/>
+  <Object type="Core/EngineeringModel">
+    <Components property="ConceptualModel">
+      <Object type="Plant/PlantModel">
+        <Components property="ActuatingSystems">
+          <Object id="ActuatingSystem1" type="Plant/Instrumentation.ActuatingSystem">
+            <Components property="ControlledActuator">
+              <Object type="Plant/Instrumentation.ControlledActuator">
+                <Components property="PersistentIdentifiers">
+                  <Object type="Core/PersistentIdentifier">
+                    <Data property="Context">
+                      <String>SmartPID - AskjaPFD</String>
+                    </Data>
+                    <Data property="Value">
+                      <String>SP5635995CB70649B4AD65A57A02CCF1F0</String>
+                    </Data>
+                  </Object>
+                </Components>
+              </Object>
+            </Components>
+            <Components property="OperatedValveReference">
+              <Object type="Plant/Instrumentation.OperatedValveReference"/>
+            </Components>
+            <Data property="TypicalInformation">
+              <String>typical info</String>
+            </Data>
+          </Object>
+        </Components>
+        <Components property="InstrumentationLoopFunctions">
+          <Object type="Plant/Instrumentation.InstrumentationLoopFunction">
+            <Data property="InstrumentationLoopFunctionNumber">
+              <String>0003</String>
+            </Data>
+            <References objects="#ProcessInstrumentationFunction1" property="ProcessInstrumentationFunctions"/>
+          </Object>
+        </Components>
+        <Components property="PipingNetworkSystems">
+          <Object type="Plant/Piping.PipingNetworkSystem">
+            <Components property="Segments">
+              <Object id="PipingNetworkSegment1" type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Items">
+                  <Object type="Plant/Piping.GateValve">
+                    <Components property="Nodes">
+                      <Object type="Plant/Piping.PipingNode"/>
+                      <Object type="Plant/Piping.PipingNode"/>
+                    </Components>
+                    <Components property="PersistentIdentifiers">
+                      <Object type="Core/PersistentIdentifier">
+                        <Data property="Context">
+                          <String>SmartPID - AskjaPFD</String>
+                        </Data>
+                        <Data property="Value">
+                          <String>SPACD7FD0E0EE147A0B52130CAB16EBA17</String>
+                        </Data>
+                      </Object>
+                    </Components>
+                  </Object>
+                </Components>
+              </Object>
+            </Components>
+          </Object>
+        </Components>
+        <Components property="ProcessInstrumentationFunctions">
+          <Object id="ProcessInstrumentationFunction1" type="Plant/Instrumentation.ProcessInstrumentationFunction">
+            <Components property="ActuatingFunctions">
+              <Object id="ActuatingFunction1" type="Plant/Instrumentation.ActuatingFunction">
+                <Data property="ActuatingFunctionNumber">
+                  <String>TV0003</String>
+                </Data>
+                <References objects="#PipingNetworkSegment1" property="ActuatingLocation"/>
+                <References objects="#ActuatingSystem1" property="Systems"/>
+              </Object>
+            </Components>
+            <Data property="DiscProfile/ItemTag">
+              <String>D-20TIC0003</String>
+            </Data>
+            <Components property="PersistentIdentifiers">
+              <Object type="Core/PersistentIdentifier">
+                <Data property="Context">
+                  <String>SmartPID - AskjaPFD</String>
+                </Data>
+                <Data property="Value">
+                  <String>SP92E63073082448AD9F81CCB3EDCD0057</String>
+                </Data>
+              </Object>
+            </Components>
+            <Components property="SignalConveyingFunctions">
+              <Object type="Plant/Instrumentation.SignalLineFunction">
+                <Components property="PersistentIdentifiers">
+                  <Object type="Core/PersistentIdentifier">
+                    <Data property="Context">
+                      <String>SmartPID - AskjaPFD</String>
+                    </Data>
+                    <Data property="Value">
+                      <String>SP59ADAD83602B45ECA8467395D59646DC</String>
+                    </Data>
+                  </Object>
+                </Components>
+                <References objects="#ProcessInstrumentationFunction1" property="Source"/>
+                <References objects="#ActuatingFunction1" property="Target"/>
+              </Object>
+            </Components>
+            <Data property="DiscProfile/TagType">
+              <String>TIC</String>
+            </Data>
+          </Object>
+        </Components>
+      </Object>
+    </Components>
+    <Data property="OriginatingSystemName">
+      <String>NOAKA Pilot Test Case</String>
+    </Data>
+    <Data property="OriginatingSystemVendorName">
+      <Undefined/>
+    </Data>
+    <Data property="OriginatingSystemVersion">
+      <Undefined/>
+    </Data>
+  </Object>
+</Model>

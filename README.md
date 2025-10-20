@@ -9,7 +9,8 @@ DISC DEXPI Project:
 ProteusPIDSchema 4.1.1 noaka.xsd - includes new approved Note class and should be used to verify the Blueprint file.
 
 DISC DEXPI Verificator (1.2 alpha 4 for DISC DEXPI):
-This is DEXPI Verificator has been customized towards specific requirements within the DISC project. 
+This is DEXPI Verificator has been customized towards specific requirements within the DISC project.
+Note: This DEXPI Verificator has been developed for Proteus files (i.e., up to DEXPI 1.4).
 Key features:
 * SymbolReferenceID is translated into the DISC DEXPI symbol legend graphic and the primitive elements are not used.
 * Class and Attribute definitions defined by DISC DEXPI project are verified

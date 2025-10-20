@@ -1,0 +1,161 @@
+<Model name="example" uri="http://www.example.org">
+  <Import prefix="Core" source="https://data.dexpi.org/models/2.0.0/Core.xml"/>
+  <Import prefix="Plant" source="https://data.dexpi.org/models/2.0.0/Plant.xml"/>
+  <Object type="Core/EngineeringModel">
+    <Components property="ConceptualModel">
+      <Object type="Plant/PlantModel">
+        <Components property="PipingNetworkSystems">
+          <Object type="Plant/Piping.PipingNetworkSystem">
+            <Components property="Segments">
+              <Object type="Plant/Piping.PipingNetworkSegment">
+                <Data property="ColorCode">
+                  <Undefined/>
+                </Data>
+                <Components property="Connections">
+                  <Object type="Plant/Piping.Pipe">
+                    <References objects="#PropertyBreak1" property="SourceItem"/>
+                    <References objects="#PipingNode1" property="SourceNode"/>
+                    <References objects="#Flange1" property="TargetItem"/>
+                    <References objects="#PipingNode2" property="TargetNode"/>
+                  </Object>
+                </Components>
+                <Data property="FluidCode">
+                  <String>PL</String>
+                </Data>
+                <Data property="HeatTracingType">
+                  <DataReference data="Plant/Enumerations.HeatTracingTypeClassification.NoHeatTracingSystem"/>
+                </Data>
+                <Data property="Inclination">
+                  <Undefined/>
+                </Data>
+                <Data property="InsulationThickness">
+                  <Undefined/>
+                </Data>
+                <Data property="InsulationType">
+                  <Undefined/>
+                </Data>
+                <Components property="Items">
+                  <Object id="PropertyBreak1" type="Plant/Piping.PropertyBreak">
+                    <Data property="CompositionBreak">
+                      <DataReference data="Plant/Enumerations.CompositionBreakClassification.NoCompositionBreak"/>
+                    </Data>
+                    <Data property="InsulationBreak">
+                      <DataReference data="Plant/Enumerations.InsulationBreakClassification.NoInsulationBreak"/>
+                    </Data>
+                    <Components property="Nodes">
+                      <Object type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode1" type="Plant/Piping.PipingNode"/>
+                    </Components>
+                    <Data property="NominalDiameterBreak">
+                      <DataReference data="Plant/Enumerations.NominalDiameterBreakClassification.NoNominalDiameterBreak"/>
+                    </Data>
+                    <Data property="PipingClassBreak">
+                      <DataReference data="Plant/Enumerations.PipingClassBreakClassification.PipingClassBreak"/>
+                    </Data>
+                  </Object>
+                  <Object id="Flange1" type="Plant/Piping.Flange">
+                    <Data property="FluidCode">
+                      <String>PL</String>
+                    </Data>
+                    <Data property="HeatTracingType">
+                      <DataReference data="Plant/Enumerations.HeatTracingTypeClassification.NoHeatTracingSystem"/>
+                    </Data>
+                    <Data property="InsulationThickness">
+                      <Undefined/>
+                    </Data>
+                    <Data property="InsulationType">
+                      <Undefined/>
+                    </Data>
+                    <Data property="LowerLimitHeatTracingTemperature">
+                      <Undefined/>
+                    </Data>
+                    <Components property="Nodes">
+                      <Object id="PipingNode2" type="Plant/Piping.PipingNode"/>
+                      <Object type="Plant/Piping.PipingNode"/>
+                    </Components>
+                    <Data property="OnHold">
+                      <DataReference data="Plant/Enumerations.OnHoldClassification.NotOnHold"/>
+                    </Data>
+                    <Components property="PersistentIdentifiers">
+                      <Object type="Core/PersistentIdentifier">
+                        <Data property="Context">
+                          <String>SmartPID - DexpiTest</String>
+                        </Data>
+                        <Data property="Value">
+                          <String>SPCF9FC822AE2D4375A0E94936F7A2B21E</String>
+                        </Data>
+                      </Object>
+                    </Components>
+                    <Data property="PipingClassArtefact">
+                      <DataReference data="Plant/Enumerations.PipingClassArtefactClassification.PipingClassArtefact"/>
+                    </Data>
+                    <Data property="PipingClassCode">
+                      <String>AS200</String>
+                    </Data>
+                    <Data property="PipingComponentName">
+                      <Undefined/>
+                    </Data>
+                    <Data property="PipingComponentNumber">
+                      <Undefined/>
+                    </Data>
+                    <Data property="PressureTestCircuitNumber">
+                      <Undefined/>
+                    </Data>
+                  </Object>
+                </Components>
+                <Data property="JacketedPipe">
+                  <DataReference data="Plant/Enumerations.JacketedPipeClassification.UnjacketedPipe"/>
+                </Data>
+                <Data property="LowerLimitHeatTracingTemperature">
+                  <Undefined/>
+                </Data>
+                <Data property="NominalDiameterNumericalValueRepresentation">
+                  <Undefined/>
+                </Data>
+                <Data property="NominalDiameterRepresentation">
+                  <Undefined/>
+                </Data>
+                <Data property="NominalDiameterTypeRepresentation">
+                  <Undefined/>
+                </Data>
+                <Data property="OnHold">
+                  <DataReference data="Plant/Enumerations.OnHoldClassification.NotOnHold"/>
+                </Data>
+                <Data property="OperatingTemperature">
+                  <Undefined/>
+                </Data>
+                <Data property="PipingClassCode">
+                  <String>AS200</String>
+                </Data>
+                <Data property="PressureTestCircuitNumber">
+                  <Undefined/>
+                </Data>
+                <Data property="PrimarySecondaryPipingNetworkSegment">
+                  <DataReference data="Plant/Enumerations.PrimarySecondaryPipingNetworkSegmentClassification.SecondaryPipingNetworkSegment"/>
+                </Data>
+                <Data property="SegmentNumber">
+                  <Undefined/>
+                </Data>
+                <Data property="Siphon">
+                  <DataReference data="Plant/Enumerations.SiphonClassification.NoSiphon"/>
+                </Data>
+                <Data property="Slope">
+                  <DataReference data="Plant/Enumerations.PipingNetworkSegmentSlopeClassification.UnslopedPipingNetworkSegment"/>
+                </Data>
+              </Object>
+            </Components>
+          </Object>
+        </Components>
+      </Object>
+    </Components>
+    <Data property="OriginatingSystemName">
+      <String>P&amp;ID Toolbox</String>
+    </Data>
+    <Data property="OriginatingSystemVendorName">
+      <String>pnb plants &amp; bytes GmbH, Aachen, Germany</String>
+    </Data>
+    <Data property="OriginatingSystemVersion">
+      <String>current</String>
+    </Data>
+  </Object>
+</Model>
