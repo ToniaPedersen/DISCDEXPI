@@ -1,0 +1,38 @@
+<Model>
+
+    <Object id = "pif1" type = "ProcessInstrumentationFunction">
+        <Components id = "scf1" property = "SignalConveyingFunctions">
+            <Object type = "SignalConveyingFunction"/>
+        </Components>
+    </Object>
+
+    <Object type = "Diagram">
+        <Components property = "Groups">
+            <Object type = "RepresentationGroup">
+                <!--symbol usage for pif1 -->
+                <Components property = "Groups">
+                    <Object type = "RepresentationGroup">
+                        <!--line for scf1 -->
+                        <References property = "Represents" objects = "#scf1"></References>
+                    </Object>
+                </Components>
+                <References property = "Represents" objects = "#pif1"></References>
+            </Object>
+        </Components>
+    </Object>
+
+    <Object type = "Diagram">
+        <Components property = "Groups">
+            <Object type = "RepresentationGroup">
+                <Components property = "Groups">
+                    <Object type = "RepresentationGroup">
+                        <!--line for scf1 -->
+                        <References property = "Represents" objects = "#scf1"></References>
+                    </Object>
+                </Components>
+                <References property = "Represents" objects = "#pif1"></References>
+            </Object>
+        </Components>
+    </Object>
+
+</Model>
