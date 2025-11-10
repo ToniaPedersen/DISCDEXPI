@@ -6874,6 +6874,16 @@
                             <Object
                                 id = "VortexBreaker1"
                                 type = "DiscProfile/InformationModel.VortexBreaker">
+                                <Components property = "PersistentIdentifiers">
+                                    <Object type = "Core/PersistentIdentifier">
+                                        <Data property = "Context">
+                                            <String>DISC DEXPI</String>
+                                        </Data>
+                                        <Data property = "Value">
+                                            <String>1a35d2ab-6f6b-4009-8020-6c250760c86e</String>
+                                        </Data>
+                                    </Object>
+                                </Components>
                             </Object>
                         </Components>
                         <References
@@ -6892,6 +6902,16 @@
                     <Object
                         id = "Motor1"
                         type = "Plant/ProcessEquipment.Motor">
+                        <Components property = "PersistentIdentifiers">
+                            <Object type = "Core/PersistentIdentifier">
+                                <Data property = "Context">
+                                    <String>DISC DEXPI</String>
+                                </Data>
+                                <Data property = "Value">
+                                    <String>80876b66-9ea6-4b56-bc7b-eb01ada38bee</String>
+                                </Data>
+                            </Object>
+                        </Components>
                         <Data property = "DiscProfile/ObjectDisplayName">
                             <Undefined/>
                         </Data>
