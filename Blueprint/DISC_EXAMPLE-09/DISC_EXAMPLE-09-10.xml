@@ -3720,7 +3720,7 @@
                                             <String>VG</String>
                                         </Data>
                                         <Data property = "DiscProfile/ValvePosition">
-                                            <String>NC</String>
+                                            <String>NO</String>
                                         </Data>
                                     </Object>
                                 </Components>
