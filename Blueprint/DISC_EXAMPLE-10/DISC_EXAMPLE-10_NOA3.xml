@@ -27,7 +27,7 @@
                             <String>PIPING AND INSTRUMENT DIAGRAM</String>
                         </Data>
                         <Data property = "DrawingNumber">
-                            <String>C01_NOA2</String>
+                            <String>C01_NOA3</String>
                         </Data>
                         <Data property = "DrawingSubTitle">
                             <AggregatedDataValue type = "Core/DataTypes.MultiLanguageString">
@@ -37,7 +37,7 @@
                                             <String>en</String>
                                         </Data>
                                         <Data property = "Value">
-                                            <String>TEST P&amp;ID2</String>
+                                            <String>TEST P&amp;ID3</String>
                                         </Data>
                                     </AggregatedDataValue>
                                 </Data>
@@ -53,7 +53,7 @@
                             <String>DISC</String>
                         </Data>
                         <Data property = "RevisionNumber">
-                            <String>01</String>
+                            <String>02</String>
                         </Data>
                     </Object>
                 </Components>
@@ -65,16 +65,16 @@
                             <Boolean>false</Boolean>
                         </Data>
                         <Data property = "DiscProfile/ItemTag">
-                            <String>D-20L00001A</String>
+                            <String>D-20L00005A</String>
                         </Data>
                         <Data property = "DiscProfile/LineDescription">
-                            <String>D-20L00001A-1800PL-AD200-</String>
+                            <String>D-20L00005A-1200PL-AS200-</String>
                         </Data>
                         <Data property = "DiscProfile/LineSuffix">
                             <String>A</String>
                         </Data>
                         <Data property = "DiscProfile/ObjectDisplayName">
-                            <String>D-20L00001A-1800PL-AD200-</String>
+                            <String>D-20L00005A-1200PL-AS200-</String>
                         </Data>
                         <References
                             objects = "#ProcessPlant1"
@@ -85,12 +85,12 @@
                                     <String>DISC DEXPI</String>
                                 </Data>
                                 <Data property = "Value">
-                                    <String>6f5fd3f2-448d-dfef-7173-156fb9820fed</String>
+                                    <String>a5df49a2-c525-f0ea-eb7f-cf4deb4f168e</String>
                                 </Data>
                             </Object>
                         </Components>
                         <Data property = "PipingClassCode">
-                            <String>AD200</String>
+                            <String>AS200</String>
                         </Data>
                         <References
                             objects = "#PlantSystem1"
@@ -107,11 +107,11 @@
                                         id = "Pipe1"
                                         type = "Plant/Piping.Pipe">
                                         <References
-                                            objects = "#FlowOutPipeOffPageConnector1"
-                                            property = "TargetItem"/>
+                                            objects = "#FlowInPipeOffPageConnector1"
+                                            property = "SourceItem"/>
                                         <References
                                             objects = "#PipingNode1"
-                                            property = "TargetNode"/>
+                                            property = "SourceNode"/>
                                     </Object>
                                 </Components>
                                 <Data property = "HeatTracingType">
@@ -119,15 +119,15 @@
                                 </Data>
                                 <Components property = "Items">
                                     <Object
-                                        id = "FlowOutPipeOffPageConnector1"
-                                        type = "Plant/Piping.FlowOutPipeOffPageConnector">
+                                        id = "FlowInPipeOffPageConnector1"
+                                        type = "Plant/Piping.FlowInPipeOffPageConnector">
                                         <Components property = "ConnectorReference">
                                             <Object type = "Plant/Piping.PipeOffPageConnectorReferenceByNumber">
                                                 <Data property = "ReferencedConnectorNumber">
-                                                    <String>123</String>
+                                                    <String>124</String>
                                                 </Data>
                                                 <Data property = "DiscProfile/ReferencedDrawingDescriptor">
-                                                    <String>TO TEST P&amp;ID1</String>
+                                                    <String>FROM TEST P&amp;ID1</String>
                                                 </Data>
                                                 <Data property = "ReferencedDrawingNumber">
                                                     <String>C01_NOA1</String>
@@ -150,12 +150,12 @@
                                             </Object>
                                         </Components>
                                         <Data property = "PipeConnectorNumber">
-                                            <String>123</String>
+                                            <String>124</String>
                                         </Data>
                                     </Object>
                                 </Components>
                                 <Data property = "NominalDiameterNumericalValueRepresentation">
-                                    <String>1800</String>
+                                    <String>1200</String>
                                 </Data>
                                 <Data property = "DiscProfile/SegmentLineTypeRepresentation">
                                     <String>Primary</String>
@@ -164,11 +164,11 @@
                                     <DataReference data = "Plant/Enumerations.PipingNetworkSegmentSlopeClassification.UnslopedPipingNetworkSegment"/>
                                 </Data>
                                 <References
-                                    objects = "#FlowOutPipeOffPageConnector1"
-                                    property = "TargetItem"/>
+                                    objects = "#FlowInPipeOffPageConnector1"
+                                    property = "SourceItem"/>
                                 <References
                                     objects = "#PipingNode1"
-                                    property = "TargetNode"/>
+                                    property = "SourceNode"/>
                             </Object>
                         </Components>
                         <Data property = "DiscProfile/TagType">
@@ -269,6 +269,68 @@
                                         <Components property = "Groups">
                                             <Object type = "Core/Diagram.Static">
                                                 <Components property = "Elements">
+                                                    <Object type = "Profile/SymbolUsage">
+                                                        <Data property = "IsMirrored">
+                                                            <Boolean>false</Boolean>
+                                                        </Data>
+                                                        <Data property = "Position">
+                                                            <AggregatedDataValue type = "Core/Diagram.Point">
+                                                                <Data property = "X">
+                                                                    <Double>499.0</Double>
+                                                                </Data>
+                                                                <Data property = "Y">
+                                                                    <Double>330.0</Double>
+                                                                </Data>
+                                                            </AggregatedDataValue>
+                                                        </Data>
+                                                        <Data property = "Rotation">
+                                                            <Double>0.0</Double>
+                                                        </Data>
+                                                        <Data property = "ScaleX">
+                                                            <Double>1.0</Double>
+                                                        </Data>
+                                                        <Data property = "ScaleY">
+                                                            <Double>1.0</Double>
+                                                        </Data>
+                                                        <References
+                                                            objects = "DiscProfile/ND0008A"
+                                                            property = "Symbol"/>
+                                                    </Object>
+                                                </Components>
+                                            </Object>
+                                            <Object type = "Core/Diagram.RepresentationGroup">
+                                                <Components property = "NodePositions">
+                                                    <Object
+                                                        id = "PipingNodePosition1"
+                                                        type = "Plant/Diagram.PipingNodePosition">
+                                                        <References
+                                                            objects = "#PipingNode1"
+                                                            property = "Node"/>
+                                                        <Data property = "Position">
+                                                            <AggregatedDataValue type = "Core/Diagram.Point">
+                                                                <Data property = "X">
+                                                                    <Double>523.0</Double>
+                                                                </Data>
+                                                                <Data property = "Y">
+                                                                    <Double>330.0</Double>
+                                                                </Data>
+                                                            </AggregatedDataValue>
+                                                        </Data>
+                                                    </Object>
+                                                </Components>
+                                                <References
+                                                    objects = "#PipingNode1"
+                                                    property = "Represents"/>
+                                            </Object>
+                                        </Components>
+                                        <References
+                                            objects = "#FlowInPipeOffPageConnector1"
+                                            property = "Represents"/>
+                                    </Object>
+                                    <Object type = "Core/Diagram.RepresentationGroup">
+                                        <Components property = "Groups">
+                                            <Object type = "Core/Diagram.Static">
+                                                <Components property = "Elements">
                                                     <Object type = "Core/Diagram.ConnectorLine">
                                                         <References
                                                             objects = "#PipingNodePosition1"
@@ -305,12 +367,12 @@
                                         </Components>
                                         <Components property = "NodePositions">
                                             <Object
-                                                id = "PipingNodePosition1"
+                                                id = "PipingNodePosition2"
                                                 type = "Plant/Diagram.PipingNodePosition">
                                                 <Data property = "Position">
                                                     <AggregatedDataValue type = "Core/Diagram.Point">
                                                         <Data property = "X">
-                                                            <Double>523.0</Double>
+                                                            <Double>758.0</Double>
                                                         </Data>
                                                         <Data property = "Y">
                                                             <Double>330.0</Double>
@@ -321,68 +383,6 @@
                                         </Components>
                                         <References
                                             objects = "#Pipe1"
-                                            property = "Represents"/>
-                                    </Object>
-                                    <Object type = "Core/Diagram.RepresentationGroup">
-                                        <Components property = "Groups">
-                                            <Object type = "Core/Diagram.Static">
-                                                <Components property = "Elements">
-                                                    <Object type = "Profile/SymbolUsage">
-                                                        <Data property = "IsMirrored">
-                                                            <Boolean>false</Boolean>
-                                                        </Data>
-                                                        <Data property = "Position">
-                                                            <AggregatedDataValue type = "Core/Diagram.Point">
-                                                                <Data property = "X">
-                                                                    <Double>778.0</Double>
-                                                                </Data>
-                                                                <Data property = "Y">
-                                                                    <Double>330.0</Double>
-                                                                </Data>
-                                                            </AggregatedDataValue>
-                                                        </Data>
-                                                        <Data property = "Rotation">
-                                                            <Double>180.0</Double>
-                                                        </Data>
-                                                        <Data property = "ScaleX">
-                                                            <Double>1.0</Double>
-                                                        </Data>
-                                                        <Data property = "ScaleY">
-                                                            <Double>1.0</Double>
-                                                        </Data>
-                                                        <References
-                                                            objects = "DiscProfile/ND0009A"
-                                                            property = "Symbol"/>
-                                                    </Object>
-                                                </Components>
-                                            </Object>
-                                            <Object type = "Core/Diagram.RepresentationGroup">
-                                                <Components property = "NodePositions">
-                                                    <Object
-                                                        id = "PipingNodePosition2"
-                                                        type = "Plant/Diagram.PipingNodePosition">
-                                                        <References
-                                                            objects = "#PipingNode1"
-                                                            property = "Node"/>
-                                                        <Data property = "Position">
-                                                            <AggregatedDataValue type = "Core/Diagram.Point">
-                                                                <Data property = "X">
-                                                                    <Double>758.0</Double>
-                                                                </Data>
-                                                                <Data property = "Y">
-                                                                    <Double>330.0</Double>
-                                                                </Data>
-                                                            </AggregatedDataValue>
-                                                        </Data>
-                                                    </Object>
-                                                </Components>
-                                                <References
-                                                    objects = "#PipingNode1"
-                                                    property = "Represents"/>
-                                            </Object>
-                                        </Components>
-                                        <References
-                                            objects = "#FlowOutPipeOffPageConnector1"
                                             property = "Represents"/>
                                     </Object>
                                 </Components>
@@ -409,7 +409,7 @@
                     <Double>0.0</Double>
                 </Data>
                 <Data property = "Name">
-                    <String>C01 NOA2 Reference</String>
+                    <String>C01 NOA3 Reference</String>
                 </Data>
                 <References
                     objects = "#PlantModel1"

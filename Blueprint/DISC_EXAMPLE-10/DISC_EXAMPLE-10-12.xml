@@ -4034,6 +4034,12 @@
                                         type = "Plant/Piping.FlowOutPipeOffPageConnector">
                                         <Components property = "ConnectorReference">
                                             <Object type = "Plant/Piping.PipeOffPageConnectorReferenceByNumber">
+                                                <Data property = "ReferencedConnectorNumber">
+                                                    <String>124</String>
+                                                </Data>
+                                                <Data property = "DiscProfile/ReferencedDrawingDescriptor">
+                                                    <String>TO TEST P&amp;ID3</String>
+                                                </Data>
                                                 <Data property = "ReferencedDrawingNumber">
                                                     <String>C01_NOA3</String>
                                                 </Data>
@@ -4054,6 +4060,9 @@
                                                 </Data>
                                             </Object>
                                         </Components>
+                                        <Data property = "PipeConnectorNumber">
+                                            <String>124</String>
+                                        </Data>
                                     </Object>
                                 </Components>
                                 <Data property = "NominalDiameterNumericalValueRepresentation">
