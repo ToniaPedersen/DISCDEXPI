@@ -5121,6 +5121,12 @@
                                 type = "Plant/Instrumentation.FlowOutSignalOffPageConnector">
                                 <Components property = "ConnectorReference">
                                     <Object type = "Plant/Instrumentation.SignalOffPageConnectorReferenceByNumber">
+                                        <Data property = "ReferencedConnectorNumber">
+                                            <String>125</String>
+                                        </Data>
+                                        <Data property = "DiscProfile/ReferencedDrawingDescriptor">
+                                            <String>TO TEST P&amp;ID3</String>
+                                        </Data>
                                         <Data property = "ReferencedDrawingNumber">
                                             <String>C01_NOA3</String>
                                         </Data>
@@ -5136,6 +5142,9 @@
                                         </Data>
                                     </Object>
                                 </Components>
+                                <Data property = "SignalConnectorNumber">
+                                    <String>125</String>
+                                </Data>
                             </Object>
                         </Components>
                         <Components property = "SignalConveyingFunctions">

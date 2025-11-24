@@ -212,6 +212,109 @@
                         </Data>
                     </Object>
                 </Components>
+                <Components property = "ProcessInstrumentationFunctions">
+                    <Object
+                        id = "ProcessInstrumentationFunction3"
+                        type = "Plant/Instrumentation.ProcessInstrumentationFunction">
+                        <Data property = "DiscProfile/ItemTag">
+                            <String>D-20LST0008</String>
+                        </Data>
+                        <References
+                            objects = "#ProcessPlant1"
+                            property = "ParentStructure"/>
+                        <Components property = "PersistentIdentifiers">
+                            <Object type = "Core/PersistentIdentifier">
+                                <Data property = "Context">
+                                    <String>DISC DEXPI</String>
+                                </Data>
+                                <Data property = "Value">
+                                    <String>a1e84309-3ed5-c2e2-77e7-861d0c968db7</String>
+                                </Data>
+                            </Object>
+                        </Components>
+                        <References
+                            objects = "#PlantSystem1"
+                            property = "PlantSystem"/>
+                        <Data property = "ProcessInstrumentationFunctionCategory">
+                            <String>L</String>
+                        </Data>
+                        <Data property = "DiscProfile/ProcessInstrumentationFunctionLocation">
+                            <String>Primary</String>
+                        </Data>
+                        <Data property = "ProcessInstrumentationFunctionNumber">
+                            <String>0008</String>
+                        </Data>
+                        <Data property = "DiscProfile/ProcessInstrumentationFunctionType">
+                            <String>SharedDisplaySharedControl</String>
+                        </Data>
+                        <Data property = "ProcessInstrumentationFunctions">
+                            <String>ST</String>
+                        </Data>
+                        <Components property = "SignalConnectors">
+                            <Object
+                                id = "FlowInSignalOffPageConnector1"
+                                type = "Plant/Instrumentation.FlowInSignalOffPageConnector">
+                                <Components property = "ConnectorReference">
+                                    <Object type = "Plant/Instrumentation.SignalOffPageConnectorReferenceByNumber">
+                                        <Data property = "ReferencedConnectorNumber">
+                                            <String>125</String>
+                                        </Data>
+                                        <Data property = "DiscProfile/ReferencedDrawingDescriptor">
+                                            <String>FROM TEST P&amp;ID1</String>
+                                        </Data>
+                                        <Data property = "ReferencedDrawingNumber">
+                                            <String>C01_NOA1</String>
+                                        </Data>
+                                    </Object>
+                                </Components>
+                                <Components property = "PersistentIdentifiers">
+                                    <Object type = "Core/PersistentIdentifier">
+                                        <Data property = "Context">
+                                            <String>DISC DEXPI</String>
+                                        </Data>
+                                        <Data property = "Value">
+                                            <String>99614cb3-d1ab-4b84-bbe6-5ae9c351d7a0</String>
+                                        </Data>
+                                    </Object>
+                                </Components>
+                                <Data property = "SignalConnectorNumber">
+                                    <String>125</String>
+                                </Data>
+                            </Object>
+                        </Components>
+                        <Components property = "SignalConveyingFunctions">
+                            <Object
+                                id = "SignalConveyingFunction5"
+                                type = "Plant/Instrumentation.SignalConveyingFunction">
+                                <Components property = "PersistentIdentifiers">
+                                    <Object type = "Core/PersistentIdentifier">
+                                        <Data property = "Context">
+                                            <String>DISC DEXPI</String>
+                                        </Data>
+                                        <Data property = "Value">
+                                            <String>de5bda42-e150-690f-ec7a-a086198f7013</String>
+                                        </Data>
+                                    </Object>
+                                </Components>
+                                <Data property = "DiscProfile/SignalConveyingFunctionTypeRepresentation">
+                                    <String>SignalConveying</String>
+                                </Data>
+                                <References
+                                    objects = "#FlowInSignalOffPageConnector1"
+                                    property = "Source"/>
+                            </Object>
+                        </Components>
+                        <Data property = "DiscProfile/TagSuffix">
+                            <String></String>
+                        </Data>
+                        <Data property = "DiscProfile/TagType">
+                            <String>LST</String>
+                        </Data>
+                        <Data property = "DiscProfile/TypeCode">
+                            <Undefined/>
+                        </Data>
+                    </Object>
+                </Components>
             </Object>
         </Components>
         <Components property = "Diagram">
@@ -241,7 +344,7 @@
                                         <Data property = "Position">
                                             <AggregatedDataValue type = "Core/Diagram.Point">
                                                 <Data property = "X">
-                                                    <Double>651.0</Double>
+                                                    <Double>201.0</Double>
                                                 </Data>
                                                 <Data property = "Y">
                                                     <Double>326.0</Double>
@@ -276,7 +379,7 @@
                                                         <Data property = "Position">
                                                             <AggregatedDataValue type = "Core/Diagram.Point">
                                                                 <Data property = "X">
-                                                                    <Double>499.0</Double>
+                                                                    <Double>49.0</Double>
                                                                 </Data>
                                                                 <Data property = "Y">
                                                                     <Double>330.0</Double>
@@ -309,7 +412,7 @@
                                                         <Data property = "Position">
                                                             <AggregatedDataValue type = "Core/Diagram.Point">
                                                                 <Data property = "X">
-                                                                    <Double>523.0</Double>
+                                                                    <Double>73.0</Double>
                                                                 </Data>
                                                                 <Data property = "Y">
                                                                     <Double>330.0</Double>
@@ -372,7 +475,7 @@
                                                 <Data property = "Position">
                                                     <AggregatedDataValue type = "Core/Diagram.Point">
                                                         <Data property = "X">
-                                                            <Double>758.0</Double>
+                                                            <Double>308.0</Double>
                                                         </Data>
                                                         <Data property = "Y">
                                                             <Double>330.0</Double>
