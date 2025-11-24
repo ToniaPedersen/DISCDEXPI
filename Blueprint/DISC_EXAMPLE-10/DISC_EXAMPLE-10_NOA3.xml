@@ -498,6 +498,125 @@
                             objects = "#PipingNetworkSystem1"
                             property = "Represents"/>
                     </Object>
+                    <Object type = "Core/Diagram.RepresentationGroup">
+                        <Components property = "Groups">
+                            <Object type = "Core/Diagram.RepresentationGroup">
+                                <Components property = "Groups">
+                                    <Object type = "Core/Diagram.Static">
+                                        <Components property = "Elements">
+                                            <Object type = "Profile/SymbolUsage">
+                                                <Data property = "IsMirrored">
+                                                    <Boolean>false</Boolean>
+                                                </Data>
+                                                <Data property = "Position">
+                                                    <AggregatedDataValue type = "Core/Diagram.Point">
+                                                        <Data property = "X">
+                                                            <Double>49.0</Double>
+                                                        </Data>
+                                                        <Data property = "Y">
+                                                            <Double>240.0</Double>
+                                                        </Data>
+                                                    </AggregatedDataValue>
+                                                </Data>
+                                                <Data property = "Rotation">
+                                                    <Double>0.0</Double>
+                                                </Data>
+                                                <Data property = "ScaleX">
+                                                    <Double>1.0</Double>
+                                                </Data>
+                                                <Data property = "ScaleY">
+                                                    <Double>1.0</Double>
+                                                </Data>
+                                                <References
+                                                    objects = "DiscProfile/ND0008B"
+                                                    property = "Symbol"/>
+                                            </Object>
+                                        </Components>
+                                    </Object>
+                                </Components>
+                                <Components property = "NodePositions">
+                                    <Object
+                                        id = "InstrumentationNodePosition11"
+                                        type = "Plant/Diagram.InstrumentationNodePosition">
+                                        <Data property = "Position">
+                                            <AggregatedDataValue type = "Core/Diagram.Point">
+                                                <Data property = "X">
+                                                    <Double>73.0</Double>
+                                                </Data>
+                                                <Data property = "Y">
+                                                    <Double>240.0</Double>
+                                                </Data>
+                                            </AggregatedDataValue>
+                                        </Data>
+                                    </Object>
+                                </Components>
+                                <References
+                                    objects = "#FlowInSignalOffPageConnector1"
+                                    property = "Represents"/>
+                            </Object>
+                            <Object type = "Core/Diagram.RepresentationGroup">
+                                <Components property = "Groups">
+                                    <Object type = "Core/Diagram.Static">
+                                        <Components property = "Elements">
+                                            <Object type = "Core/Diagram.ConnectorLine">
+                                                <References
+                                                    objects = "#InstrumentationNodePosition11"
+                                                    property = "Source"/>
+                                                <Data property = "Stroke">
+                                                    <AggregatedDataValue type = "Core/Diagram.Stroke">
+                                                        <Data property = "Color">
+                                                            <AggregatedDataValue type = "Core/Diagram.Color">
+                                                                <Data property = "B">
+                                                                    <Integer>0</Integer>
+                                                                </Data>
+                                                                <Data property = "G">
+                                                                    <Integer>0</Integer>
+                                                                </Data>
+                                                                <Data property = "R">
+                                                                    <Integer>0</Integer>
+                                                                </Data>
+                                                            </AggregatedDataValue>
+                                                        </Data>
+                                                        <Data property = "DashStyle">
+                                                            <DataReference data = "Core/Diagram.DashStyle.LongDash"/>
+                                                        </Data>
+                                                        <Data property = "Width">
+                                                            <Double>0.25</Double>
+                                                        </Data>
+                                                    </AggregatedDataValue>
+                                                </Data>
+                                                <References
+                                                    objects = "#InstrumentationNodePosition12"
+                                                    property = "Target"/>
+                                            </Object>
+                                        </Components>
+                                    </Object>
+                                </Components>
+                                <References
+                                    objects = "#SignalConveyingFunction5"
+                                    property = "Represents"/>
+                            </Object>
+                        </Components>
+                        <Components property = "NodePositions">
+                            <Object
+                                id = "InstrumentationNodePosition12"
+                                type = "Plant/Diagram.InstrumentationNodePosition">
+                                <Data property = "Position">
+                                    <AggregatedDataValue type = "Core/Diagram.Point">
+                                        <Data property = "X">
+                                            <Double>308.0</Double>
+                                        </Data>
+                                        <Data property = "Y">
+                                            <Double>240.0</Double>
+                                        </Data>
+                                    </AggregatedDataValue>
+                                </Data>
+                            </Object>
+                        </Components>
+                        <References
+                            objects = "#ProcessInstrumentationFunction3"
+                            property = "Represents"/>
+                    </Object>
                 </Components>
                 <Data property = "MaxX">
                     <Double>841.0</Double>
