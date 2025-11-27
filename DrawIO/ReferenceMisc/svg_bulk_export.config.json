@@ -5,10 +5,10 @@
 		"Color properties can be defined like a color CSS property (e.g. \"red\", \"#ff0000\", \"rgb(255, 0, 0)\")]"
 	],
 
-	"addDrawIOFilenameAsPrefix": false,
+	"addDrawIOFilenameAsPrefix": true,
 	"openDevTools": false,
 	"writeToFileSystem": true,
-	"zipFilePath": "",
+	"zipFilePath": "svg_bulk_export_files.zip",
 	"cleanup": {
 		"enabled": true,
 		"unitScaling": {
@@ -38,6 +38,13 @@
 		},
 		"ellipseAsPath": true,
 		"sendSymbolLayerToBack": true,
+		"symbolRegistrationNumber": {
+			"color": "#000000",
+			"padding": {
+				"x": 0.0,
+				"y": 1.0
+			}
+		},
 		"grid": {
 			"padding": {
 				"x": 1.0,
@@ -75,21 +82,19 @@
 	"layerGroups": {
 		"Symbol": {
 			"filenamePostfix": "",
-			"exportPath": "C:\\GitHub\\NOAKADEXPI\\Symbols",
+			"exportPath": "svg_export\\symbols",
 			"enabledLayers": ["Symbol"]
 		},
 		"Origo": {
-			"exportPath": "C:\\GitHub\\NOAKADEXPI\\Symbols\\Origo",			
 			"enabledLayers": ["Symbol", "Origo", "Label","Connection"]
 		},
 		"Detail": {
-			"exportPath": "C:\\GitHub\\NOAKADEXPI\\Symbols\\Detail",			
 			"enabledLayers": ["Symbol", "Origo", "Label", "Connection"],
 			"GridLayer": "Grid",
-			"DimensionLayer": "Dimension"
+			"DimensionLayer": "Dimension",
+			"SymbolRegistrationNumberLayer": "SymbolRegistrationNumber"
 		},
 		"Option": {
-			"exportPath": "C:\\GitHub\\NOAKADEXPI\\Symbols",			
 			"exportPerOptionLayer": true,
 			"enabledLayers": ["Origo", "Label"]
 		}
