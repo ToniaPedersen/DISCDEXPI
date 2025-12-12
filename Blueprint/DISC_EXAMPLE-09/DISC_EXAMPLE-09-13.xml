@@ -5097,6 +5097,70 @@
               </Object>
             </Components>
           </Object>
+
+
+
+
+
+          <Object id="CustomEquipmentPackage1" type="DiscProfile/InformationModel.CustomEquipmentPackage">
+            <Data property="DiscProfile/ObjectDisplayName">
+              <String>D-20XX001</String>
+            </Data>
+			<Components property="Nozzles">
+              <Object id="MechanicalJoint1" type="DiscProfile/InformationModel.MechanicalJoint">
+                <Data property="DiscProfile/IsVirtual">
+                  <Boolean>false</Boolean>
+                </Data>
+                <Data property="DiscProfile/IsVirtualMount">
+                  <Boolean>false</Boolean>
+                </Data>
+                <Data property="DiscProfile/ItemTag">
+                  <String>N07</String>
+                </Data>
+                <Data property="DiscProfile/ObjectDisplayName">
+                  <String>N07</String>
+                </Data>
+                <Components property="PersistentIdentifiers">
+                  <Object type="Core/PersistentIdentifier">
+                    <Data property="Context">
+                      <String>DISC DEXPI</String>
+                    </Data>
+                    <Data property="Value">
+                      <String>630edb54-f24e-4f8f-978c-6ee0db943959</String>
+                    </Data>
+                  </Object>
+                </Components>
+                <Data property="DiscProfile/Sequence">
+                  <String>07</String>
+                </Data>
+                <Data property="DiscProfile/TagType">
+                  <String>N</String>
+                </Data>
+            	<Data property="DiscProfile/JointConnectionSize">
+                  <String>D25</String>
+                </Data>
+              </Object>
+			</Components>
+            <Components property="PersistentIdentifiers">
+              <Object type="Core/PersistentIdentifier">
+                <Data property="Context">
+                  <String>DISC DEXPI</String>
+                </Data>
+                <Data property="Value">
+                  <String>028fbfb8-9de8-422c-a88b-6ca51071c87f</String>
+                </Data>
+              </Object>
+            </Components>
+          </Object>
+
+
+
+
+
+
+
+
+
           <Object id="CentrifugalPump1" type="Plant/ProcessEquipment.CentrifugalPump">
             <References objects="#TransmissionSystem1" property="DrivingTransmissionSystem"/>
             <Components property="Nozzles">
