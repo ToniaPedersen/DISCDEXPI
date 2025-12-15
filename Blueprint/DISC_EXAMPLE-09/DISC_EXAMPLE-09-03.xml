@@ -1590,10 +1590,10 @@
                         </Data>
                       </Object>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameterIn">
+                    <Data property="DiscProfile/NominalDiameterRepresentationIn">
                       <String>1400</String>
                     </Data>
-                    <Data property="DiscProfile/NominalDiameterOut">
+                    <Data property="DiscProfile/NominalDiameterRepresentationOut">
                       <String>1200</String>
                     </Data>
                     <Components property="PersistentIdentifiers">
