@@ -858,7 +858,7 @@
                         </Data>
                       </Object>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameter">
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
                       <String>14″</String>
                     </Data>
                     <Components property="PersistentIdentifiers">
@@ -1391,7 +1391,7 @@
                         </Data>
                       </Object>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameter">
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
                       <String>14″</String>
                     </Data>
                     <Data property="DiscProfile/ObjectDisplayName">
@@ -1555,6 +1555,9 @@
                         </Data>
                       </Object>
                     </Components>
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
+                      <String>14″</String>
+                    </Data>
                     <Data property="DiscProfile/ObjectDisplayName">
                       <String>D-VC20-0001</String>
                     </Data>
@@ -1656,7 +1659,7 @@
                       <Object id="PipingNode61" type="Plant/Piping.PipingNode"/>
                       <Object id="PipingNode62" type="Plant/Piping.PipingNode"/>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameter">
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
                       <String>12″</String>
                     </Data>
                     <Data property="DiscProfile/ObjectDisplayName">
@@ -1770,7 +1773,7 @@
                       <Object id="PipingNode63" type="Plant/Piping.PipingNode"/>
                       <Object id="PipingNode64" type="Plant/Piping.PipingNode"/>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameter">
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
                       <String>12″</String>
                     </Data>
                     <Data property="DiscProfile/ObjectDisplayName">
@@ -2329,7 +2332,7 @@
                       <Object id="PipingNode87" type="Plant/Piping.PipingNode"/>
                       <Object id="PipingNode88" type="Plant/Piping.PipingNode"/>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameter">
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
                       <String>0.5″</String>
                     </Data>
                     <Data property="DiscProfile/ObjectDisplayName">
@@ -2486,7 +2489,7 @@
                     <Components property="Nodes">
                       <Object id="PipingNode94" type="Plant/Piping.PipingNode"/>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameter">
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
                       <String>0.5″</String>
                     </Data>
                     <Data property="DiscProfile/ObjectDisplayName">
@@ -2554,7 +2557,7 @@
                       <Object id="PipingNode95" type="Plant/Piping.PipingNode"/>
                       <Object id="PipingNode96" type="Plant/Piping.PipingNode"/>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameter">
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
                       <String>12″</String>
                     </Data>
                     <Data property="DiscProfile/ObjectDisplayName">
@@ -2635,7 +2638,7 @@
                     <Components property="Nodes">
                       <Object id="PipingNode100" type="Plant/Piping.PipingNode"/>
                     </Components>
-                    <Data property="DiscProfile/NominalDiameter">
+                    <Data property="DiscProfile/NominalDiameterRepresentation">
                       <String>0.5″</String>
                     </Data>
                     <Data property="DiscProfile/ObjectDisplayName">
@@ -3312,6 +3315,9 @@
             <Data property="DiscProfile/ItemTag">
               <Undefined/>
             </Data>
+            <Data property="DiscProfile/ObjectDisplayName">
+              <Undefined/>
+            </Data>
             <References objects="#ProcessPlant1" property="ParentStructure"/>
             <Components property="PersistentIdentifiers">
               <Object type="Core/PersistentIdentifier">
@@ -3612,6 +3618,9 @@
             <Data property="DiscProfile/ItemTag">
               <String>D-PSD4-20-51</String>
             </Data>
+            <Data property="DiscProfile/ObjectDisplayName">
+              <String>4-20-51</String>
+            </Data>
             <References objects="#ProcessPlant1" property="ParentStructure"/>
             <Components property="PersistentIdentifiers">
               <Object type="Core/PersistentIdentifier">
@@ -3635,6 +3644,9 @@
             <Data property="DiscProfile/ItemTag">
               <String>D-PSD4-20-52</String>
             </Data>
+            <Data property="DiscProfile/ObjectDisplayName">
+              <String>4-20-52</String>
+            </Data>
             <References objects="#ProcessPlant1" property="ParentStructure"/>
             <Components property="PersistentIdentifiers">
               <Object type="Core/PersistentIdentifier">
@@ -3657,6 +3669,9 @@
           <Object id="ProcessSafetyFunction3" type="DiscProfile/InformationModel.ProcessSafetyFunction">
             <Data property="DiscProfile/ItemTag">
               <String>D-PSD3-20-05</String>
+            </Data>
+            <Data property="DiscProfile/ObjectDisplayName">
+              <String>3-20-05</String>
             </Data>
             <References objects="#ProcessPlant1" property="ParentStructure"/>
             <Components property="PersistentIdentifiers">
@@ -3946,6 +3961,9 @@
             <Data property="DiscProfile/ItemTag">
               <String>D-PSD4-20-61</String>
             </Data>
+            <Data property="DiscProfile/ObjectDisplayName">
+              <String>4-20-61</String>
+            </Data>
             <References objects="#ProcessPlant1" property="ParentStructure"/>
             <Components property="PersistentIdentifiers">
               <Object type="Core/PersistentIdentifier">
@@ -3987,6 +4005,9 @@
           <Object id="ProcessSafetyFunction6" type="DiscProfile/InformationModel.ProcessSafetyFunction">
             <Data property="DiscProfile/ItemTag">
               <String>D-ESD2-10</String>
+            </Data>
+            <Data property="DiscProfile/ObjectDisplayName">
+              <String>2-10</String>
             </Data>
             <References objects="#ProcessPlant1" property="ParentStructure"/>
             <Components property="PersistentIdentifiers">
@@ -5998,7 +6019,7 @@
                     <Data property="Position">
                       <AggregatedDataValue type="Core/Diagram.Point">
                         <Data property="X">
-                          <Double>351.0</Double>
+                          <Double>355.0</Double>
                         </Data>
                         <Data property="Y">
                           <Double>63.0</Double>
@@ -6593,10 +6614,10 @@
                     <Data property="Position">
                       <AggregatedDataValue type="Core/Diagram.Point">
                         <Data property="X">
-                          <Double>408.0</Double>
+                          <Double>425.0</Double>
                         </Data>
                         <Data property="Y">
-                          <Double>254.0</Double>
+                          <Double>257.0</Double>
                         </Data>
                       </AggregatedDataValue>
                     </Data>
