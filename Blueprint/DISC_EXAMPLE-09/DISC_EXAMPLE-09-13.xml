@@ -6788,10 +6788,10 @@
                     <Data property="Position">
                       <AggregatedDataValue type="Core/Diagram.Point">
                         <Data property="X">
-                          <Double>161.0</Double>
+                          <Double>126.0</Double>
                         </Data>
                         <Data property="Y">
-                          <Double>210.0</Double>
+                          <Double>195.0</Double>
                         </Data>
                       </AggregatedDataValue>
                     </Data>
@@ -6799,10 +6799,10 @@
                       <Double>0.0</Double>
                     </Data>
                     <Data property="ScaleX">
-                      <Double>1.0</Double>
+                      <Double>4.0</Double>
                     </Data>
                     <Data property="ScaleY">
-                      <Double>1.0</Double>
+                      <Double>4.0</Double>
                     </Data>
                     <References objects="DiscProfile/ND0044" property="Symbol"/>
                   </Object>
@@ -6819,7 +6819,7 @@
                         <Data property="Position">
                           <AggregatedDataValue type="Core/Diagram.Point">
                             <Data property="X">
-                              <Double>172.0</Double>
+                              <Double>167.0</Double>
                             </Data>
                             <Data property="Y">
                               <Double>210.0</Double>
@@ -6843,7 +6843,7 @@
                     <Components property="Elements">
                       <Object type="Core/Diagram.Text">
                         <Data property="Alignment">
-                          <DataReference data="Core/Diagram.TextAlignment.RightCenter"/>
+                          <DataReference data="Core/Diagram.TextAlignment.LeftCenter"/>
                         </Data>
                         <Data property="Color">
                           <AggregatedDataValue type="Core/Diagram.Color">
@@ -6864,10 +6864,10 @@
                         <Data property="Position">
                           <AggregatedDataValue type="Core/Diagram.Point">
                             <Data property="X">
-                              <Double>173.0</Double>
+                              <Double>168.0</Double>
                             </Data>
                             <Data property="Y">
-                              <Double>200.0</Double>
+                              <Double>205.0</Double>
                             </Data>
                           </AggregatedDataValue>
                         </Data>
@@ -6889,52 +6889,15 @@
                                   <DataReference data="Core/Diagram.AttributeRepresentationType.Value"/>
                                 </Data>
                               </Object>
-                            </Components>
-                          </Object>
-                        </Components>
-                        <Data property="Text">
-                          <String>N07</String>
-                        </Data>
-                      </Object>
-					  <Object type="Core/Diagram.Text">
-                        <Data property="Alignment">
-                          <DataReference data="Core/Diagram.TextAlignment.RightCenter"/>
-                        </Data>
-                        <Data property="Color">
-                          <AggregatedDataValue type="Core/Diagram.Color">
-                            <Data property="B">
-                              <Integer>80</Integer>
-                            </Data>
-                            <Data property="G">
-                              <Integer>80</Integer>
-                            </Data>
-                            <Data property="R">
-                              <Integer>80</Integer>
-                            </Data>
-                          </AggregatedDataValue>
-                        </Data>
-                        <Data property="Font">
-                          <String>Arial</String>
-                        </Data>
-                        <Data property="Position">
-                          <AggregatedDataValue type="Core/Diagram.Point">
-                            <Data property="X">
-                              <Double>173.0</Double>
-                            </Data>
-                            <Data property="Y">
-                              <Double>205.0</Double>
-                            </Data>
-                          </AggregatedDataValue>
-                        </Data>
-                        <Data property="Rotation">
-                          <Double>0.0</Double>
-                        </Data>
-                        <Data property="Size">
-                          <Double>3.3</Double>
-                        </Data>
-                        <Components property="Template">
-                          <Object type="Core/Diagram.TextTemplate">
-                            <Components property="Fragments">
+
+                              <Object type="Core/Diagram.LiteralText">
+                                <Data property="Text">
+                                  <String>
+</String>
+                                </Data>
+                              </Object>
+
+
                               <Object type="Core/Diagram.AttributeRepresentation">
                                 <Data property="AttributeName">
                                   <String>DiscProfile/JointConnectionSize</String>
@@ -6948,19 +6911,21 @@
                           </Object>
                         </Components>
                         <Data property="Text">
-                          <String>D25</String>
+                          <String>N07
+D25</String>
                         </Data>
                       </Object>
+					  
                     </Components>
                   </Object>
                   <Object type="Core/Diagram.RepresentationGroup">
                     <Components property="NodePositions">
-                      <Object type="Plant/Diagram.PipingNodePosition">
+                      <Object id="PipingNodePosition6" type="Plant/Diagram.PipingNodePosition">
                         <References objects="#PipingNode130" property="Node"/>
                         <Data property="Position">
                           <AggregatedDataValue type="Core/Diagram.Point">
                             <Data property="X">
-                              <Double>172.0</Double>
+                              <Double>167.0</Double>
                             </Data>
                             <Data property="Y">
                               <Double>210.0</Double>
@@ -6977,16 +6942,6 @@
             </Components>
             <References objects="#CustomEquipmentPackage1" property="Represents"/>
           </Object>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -9643,20 +9598,7 @@
                         </Components>
                       </Object>
                     </Components>
-                    <Components property="NodePositions">
-                      <Object id="PipingNodePosition6" type="Plant/Diagram.PipingNodePosition">
-                        <Data property="Position">
-                          <AggregatedDataValue type="Core/Diagram.Point">
-                            <Data property="X">
-                              <Double>172.0</Double>
-                            </Data>
-                            <Data property="Y">
-                              <Double>210.0</Double>
-                            </Data>
-                          </AggregatedDataValue>
-                        </Data>
-                      </Object>
-                    </Components>
+
                     <References objects="#Pipe3" property="Represents"/>
                   </Object>
                 </Components>
