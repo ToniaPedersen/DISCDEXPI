@@ -7211,10 +7211,10 @@ D25</String>
                         <Data property="Position">
                           <AggregatedDataValue type="Core/Diagram.Point">
                             <Data property="X">
-                              <Double>390.0</Double>
+                              <Double>396.0</Double>
                             </Data>
                             <Data property="Y">
-                              <Double>253.0</Double>
+                              <Double>259.0</Double>
                             </Data>
                           </AggregatedDataValue>
                         </Data>

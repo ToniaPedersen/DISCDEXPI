@@ -1,432 +1,368 @@
-<Model
-    name = "example"
-    uri = "http://www.example.org">
-    <Import
-        prefix = "Core"
-        source = "https://data.dexpi.org/models/2.0.0/Core.xml"/>
-    <Import
-        prefix = "DiscProfile"
-        source = "http://www.to.define"/>
-    <Import
-        prefix = "Plant"
-        source = "https://data.dexpi.org/models/2.0.0/Plant.xml"/>
-    <Import
-        prefix = "Profile"
-        source = "http://www.dexpi.org/specification/Temp/Profile"/>
-    <Object type = "Core/EngineeringModel">
-        <Components property = "ConceptualModel">
-            <Object
-                id = "PlantModel1"
-                type = "Plant/PlantModel">
-                <Components property = "MetaData">
-                    <Object type = "Plant/Diagram.PlantMetaData">
-                        <Data property = "CreatorName">
-                            <String>pnb</String>
-                        </Data>
-                        <Data property = "DrawingName">
-                            <String>PIPING AND INSTRUMENT DIAGRAM</String>
-                        </Data>
-                        <Data property = "DrawingNumber">
-                            <String>C01_NOA2</String>
-                        </Data>
-                        <Data property = "DrawingSubTitle">
-                            <AggregatedDataValue type = "Core/DataTypes.MultiLanguageString">
-                                <Data property = "SingleLanguageStrings">
-                                    <AggregatedDataValue type = "Core/DataTypes.SingleLanguageString">
-                                        <Data property = "Language">
-                                            <String>en</String>
-                                        </Data>
-                                        <Data property = "Value">
-                                            <String>TEST P&amp;ID2</String>
-                                        </Data>
-                                    </AggregatedDataValue>
-                                </Data>
-                            </AggregatedDataValue>
-                        </Data>
-                        <Data property = "PlantAreaName">
-                            <String>AP110</String>
-                        </Data>
-                        <Data property = "PlantSystemIdentificationCode">
-                            <String>20</String>
-                        </Data>
-                        <Data property = "ProcessPlantName">
-                            <String>DISC</String>
-                        </Data>
-                        <Data property = "RevisionNumber">
-                            <String>01</String>
-                        </Data>
-                    </Object>
-                </Components>
-                <Components property = "PipingNetworkSystems">
-                    <Object
-                        id = "PipingNetworkSystem1"
-                        type = "Plant/Piping.PipingNetworkSystem">
-                        <Data property = "DiscProfile/HeatTraceRequired">
-                            <Boolean>false</Boolean>
-                        </Data>
-                        <Data property = "DiscProfile/ItemTag">
-                            <String>D-20L00001A</String>
-                        </Data>
-                        <Data property = "DiscProfile/LineDescription">
-                            <String>D-20L00001A-1800PL-AD200-</String>
-                        </Data>
-                        <Data property = "DiscProfile/LineSuffix">
-                            <String>A</String>
-                        </Data>
-                        <Data property = "DiscProfile/ObjectDisplayName">
-                            <String>D-20L00001A-1800PL-AD200-</String>
-                        </Data>
-                        <References
-                            objects = "#ProcessPlant1"
-                            property = "ParentStructure"/>
-                        <Components property = "PersistentIdentifiers">
-                            <Object type = "Core/PersistentIdentifier">
-                                <Data property = "Context">
-                                    <String>DISC DEXPI</String>
-                                </Data>
-                                <Data property = "Value">
-                                    <String>6f5fd3f2-448d-dfef-7173-156fb9820fed</String>
-                                </Data>
-                            </Object>
-                        </Components>
-                        <Data property = "PipingClassCode">
-                            <String>AD200</String>
-                        </Data>
-                        <References
-                            objects = "#PlantSystem1"
-                            property = "PlantSystem"/>
-                        <Data property = "DiscProfile/ProductCode">
-                            <String>PL</String>
-                        </Data>
-                        <Components property = "Segments">
-                            <Object
-                                id = "PipingNetworkSegment1"
-                                type = "Plant/Piping.PipingNetworkSegment">
-                                <Components property = "Connections">
-                                    <Object
-                                        id = "Pipe1"
-                                        type = "Plant/Piping.Pipe">
-                                        <References
-                                            objects = "#FlowOutPipeOffPageConnector1"
-                                            property = "TargetItem"/>
-                                        <References
-                                            objects = "#PipingNode1"
-                                            property = "TargetNode"/>
-                                    </Object>
-                                </Components>
-                                <Data property = "HeatTracingType">
-                                    <DataReference data = "Plant/Enumerations.HeatTracingTypeClassification.NoHeatTracingSystem"/>
-                                </Data>
-                                <Components property = "Items">
-                                    <Object
-                                        id = "FlowOutPipeOffPageConnector1"
-                                        type = "Plant/Piping.FlowOutPipeOffPageConnector">
-                                        <Components property = "ConnectorReference">
-                                            <Object type = "Plant/Piping.PipeOffPageConnectorReferenceByNumber">
-                                                <Data property = "ReferencedConnectorNumber">
-                                                    <String>123</String>
-                                                </Data>
-                                                <Data property = "DiscProfile/ReferencedDrawingDescriptor">
-                                                    <String>TO TEST P&amp;ID1</String>
-                                                </Data>
-                                                <Data property = "ReferencedDrawingNumber">
-                                                    <String>C01_NOA1</String>
-                                                </Data>
-                                            </Object>
-                                        </Components>
-                                        <Components property = "Nodes">
-                                            <Object
-                                                id = "PipingNode1"
-                                                type = "Plant/Piping.PipingNode"/>
-                                        </Components>
-                                        <Components property = "PersistentIdentifiers">
-                                            <Object type = "Core/PersistentIdentifier">
-                                                <Data property = "Context">
-                                                    <String>DISC DEXPI</String>
-                                                </Data>
-                                                <Data property = "Value">
-                                                    <String>8c7cf046-2b6b-8843-779c-d2dc021dcd87</String>
-                                                </Data>
-                                            </Object>
-                                        </Components>
-                                        <Data property = "PipeConnectorNumber">
-                                            <String>123</String>
-                                        </Data>
-                                    </Object>
-                                </Components>
-                                <Data property = "NominalDiameterNumericalValueRepresentation">
-                                    <String>1800</String>
-                                </Data>
-                                <Data property = "DiscProfile/SegmentLineTypeRepresentation">
-                                    <String>Primary</String>
-                                </Data>
-                                <Data property = "Slope">
-                                    <DataReference data = "Plant/Enumerations.PipingNetworkSegmentSlopeClassification.UnslopedPipingNetworkSegment"/>
-                                </Data>
-                                <References
-                                    objects = "#FlowOutPipeOffPageConnector1"
-                                    property = "TargetItem"/>
-                                <References
-                                    objects = "#PipingNode1"
-                                    property = "TargetNode"/>
-                            </Object>
-                        </Components>
-                        <Data property = "DiscProfile/TagType">
-                            <String>L</String>
-                        </Data>
-                    </Object>
-                </Components>
-                <Components property = "PlantStructureItems">
-                    <Object
-                        id = "ProcessPlant1"
-                        type = "Plant/PlantStructure.ProcessPlant">
-                        <Components property = "PersistentIdentifiers">
-                            <Object type = "Core/PersistentIdentifier">
-                                <Data property = "Context">
-                                    <String>DISC DEXPI</String>
-                                </Data>
-                                <Data property = "Value">
-                                    <String>d9bafacf-f0d7-f031-2f57-49204d7d82d5</String>
-                                </Data>
-                            </Object>
-                        </Components>
-                        <Data property = "ProcessPlantIdentificationCode">
-                            <String>D</String>
-                        </Data>
-                    </Object>
-                    <Object
-                        id = "PlantSystem1"
-                        type = "Plant/PlantStructure.PlantSystem">
-                        <Components property = "PersistentIdentifiers">
-                            <Object type = "Core/PersistentIdentifier">
-                                <Data property = "Context">
-                                    <String>DISC DEXPI</String>
-                                </Data>
-                                <Data property = "Value">
-                                    <String>089bb0ce-82d5-8073-6ab6-c6f4aa968b6b</String>
-                                </Data>
-                            </Object>
-                        </Components>
-                        <Data property = "PlantSystemIdentificationCode">
-                            <String>20</String>
-                        </Data>
-                    </Object>
-                </Components>
-            </Object>
+<Model name="example" uri="http://www.example.org">
+  <Import prefix="Core" source="https://data.dexpi.org/models/2.0.0/Core.xml"/>
+  <Import prefix="DiscProfile" source="http://www.to.define"/>
+  <Import prefix="Plant" source="https://data.dexpi.org/models/2.0.0/Plant.xml"/>
+  <Import prefix="Profile" source="http://www.dexpi.org/specification/Temp/Profile"/>
+  <Object type="Core/EngineeringModel">
+    <Components property="ConceptualModel">
+      <Object id="PlantModel1" type="Plant/PlantModel">
+        <Components property="MetaData">
+          <Object type="Plant/Diagram.PlantMetaData">
+            <Data property="CreatorName">
+              <String>pnb</String>
+            </Data>
+            <Data property="DrawingName">
+              <String>PIPING AND INSTRUMENT DIAGRAM</String>
+            </Data>
+            <Data property="DrawingNumber">
+              <String>C01_NOA2</String>
+            </Data>
+            <Data property="DrawingSubTitle">
+              <AggregatedDataValue type="Core/DataTypes.MultiLanguageString">
+                <Data property="SingleLanguageStrings">
+                  <AggregatedDataValue type="Core/DataTypes.SingleLanguageString">
+                    <Data property="Language">
+                      <String>en</String>
+                    </Data>
+                    <Data property="Value">
+                      <String>TEST P&amp;ID2</String>
+                    </Data>
+                  </AggregatedDataValue>
+                </Data>
+              </AggregatedDataValue>
+            </Data>
+            <Data property="PlantAreaName">
+              <String>AP110</String>
+            </Data>
+            <Data property="PlantSystemIdentificationCode">
+              <String>20</String>
+            </Data>
+            <Data property="ProcessPlantName">
+              <String>DISC</String>
+            </Data>
+            <Data property="RevisionNumber">
+              <String>01</String>
+            </Data>
+          </Object>
         </Components>
-        <Components property = "Diagram">
-            <Object type = "Core/Diagram.Diagram">
-                <Data property = "BackgroundColor">
-                    <AggregatedDataValue type = "Core/Diagram.Color">
-                        <Data property = "B">
-                            <Integer>200</Integer>
-                        </Data>
-                        <Data property = "G">
-                            <Integer>200</Integer>
-                        </Data>
-                        <Data property = "R">
-                            <Integer>200</Integer>
-                        </Data>
-                    </AggregatedDataValue>
+        <Components property="PipingNetworkSystems">
+          <Object id="PipingNetworkSystem1" type="Plant/Piping.PipingNetworkSystem">
+            <Data property="DiscProfile/HeatTraceRequired">
+              <Boolean>false</Boolean>
+            </Data>
+            <Data property="DiscProfile/ItemTag">
+              <String>D-20L00001A</String>
+            </Data>
+            <Data property="DiscProfile/LineDescription">
+              <String>D-20L00001A-1800PL-AD200-</String>
+            </Data>
+            <Data property="DiscProfile/LineSuffix">
+              <String>A</String>
+            </Data>
+            <Data property="DiscProfile/ObjectDisplayName">
+              <String>D-20L00001A-1800PL-AD200-</String>
+            </Data>
+            <References objects="#ProcessPlant1" property="ParentStructure"/>
+            <Components property="PersistentIdentifiers">
+              <Object type="Core/PersistentIdentifier">
+                <Data property="Context">
+                  <String>DISC DEXPI</String>
                 </Data>
-                <Components property = "Groups">
-                    <Object type = "Core/Diagram.RepresentationGroup">
-                        <Components property = "Groups">
-                            <Object type = "Core/Diagram.Label">
-                                <Components property = "Elements">
-                                    <Object type = "Profile/SymbolUsage">
-                                        <Data property = "IsMirrored">
-                                            <Boolean>false</Boolean>
-                                        </Data>
-                                        <Data property = "Position">
-                                            <AggregatedDataValue type = "Core/Diagram.Point">
-                                                <Data property = "X">
-                                                    <Double>651.0</Double>
-                                                </Data>
-                                                <Data property = "Y">
-                                                    <Double>326.0</Double>
-                                                </Data>
-                                            </AggregatedDataValue>
-                                        </Data>
-                                        <Data property = "Rotation">
-                                            <Double>0.0</Double>
-                                        </Data>
-                                        <Data property = "ScaleX">
-                                            <Double>1.0</Double>
-                                        </Data>
-                                        <Data property = "ScaleY">
-                                            <Double>1.0</Double>
-                                        </Data>
-                                        <References
-                                            objects = "DiscProfile/ND0040"
-                                            property = "Symbol"/>
-                                    </Object>
-                                </Components>
-                            </Object>
-                            <Object type = "Core/Diagram.RepresentationGroup">
-                                <Components property = "Groups">
-                                    <Object type = "Core/Diagram.RepresentationGroup">
-                                        <Components property = "Groups">
-                                            <Object type = "Core/Diagram.Static">
-                                                <Components property = "Elements">
-                                                    <Object type = "Core/Diagram.ConnectorLine">
-                                                        <References
-                                                            objects = "#PipingNodePosition1"
-                                                            property = "Source"/>
-                                                        <Data property = "Stroke">
-                                                            <AggregatedDataValue type = "Core/Diagram.Stroke">
-                                                                <Data property = "Color">
-                                                                    <AggregatedDataValue type = "Core/Diagram.Color">
-                                                                        <Data property = "B">
-                                                                            <Integer>127</Integer>
-                                                                        </Data>
-                                                                        <Data property = "G">
-                                                                            <Integer>127</Integer>
-                                                                        </Data>
-                                                                        <Data property = "R">
-                                                                            <Integer>127</Integer>
-                                                                        </Data>
-                                                                    </AggregatedDataValue>
-                                                                </Data>
-                                                                <Data property = "DashStyle">
-                                                                    <DataReference data = "Core/Diagram.DashStyle.Solid"/>
-                                                                </Data>
-                                                                <Data property = "Width">
-                                                                    <Double>1.0</Double>
-                                                                </Data>
-                                                            </AggregatedDataValue>
-                                                        </Data>
-                                                        <References
-                                                            objects = "#PipingNodePosition2"
-                                                            property = "Target"/>
-                                                    </Object>
-                                                </Components>
-                                            </Object>
-                                        </Components>
-                                        <Components property = "NodePositions">
-                                            <Object
-                                                id = "PipingNodePosition1"
-                                                type = "Plant/Diagram.PipingNodePosition">
-                                                <Data property = "Position">
-                                                    <AggregatedDataValue type = "Core/Diagram.Point">
-                                                        <Data property = "X">
-                                                            <Double>523.0</Double>
-                                                        </Data>
-                                                        <Data property = "Y">
-                                                            <Double>330.0</Double>
-                                                        </Data>
-                                                    </AggregatedDataValue>
-                                                </Data>
-                                            </Object>
-                                        </Components>
-                                        <References
-                                            objects = "#Pipe1"
-                                            property = "Represents"/>
-                                    </Object>
-                                    <Object type = "Core/Diagram.RepresentationGroup">
-                                        <Components property = "Groups">
-                                            <Object type = "Core/Diagram.Static">
-                                                <Components property = "Elements">
-                                                    <Object type = "Profile/SymbolUsage">
-                                                        <Data property = "IsMirrored">
-                                                            <Boolean>false</Boolean>
-                                                        </Data>
-                                                        <Data property = "Position">
-                                                            <AggregatedDataValue type = "Core/Diagram.Point">
-                                                                <Data property = "X">
-                                                                    <Double>778.0</Double>
-                                                                </Data>
-                                                                <Data property = "Y">
-                                                                    <Double>330.0</Double>
-                                                                </Data>
-                                                            </AggregatedDataValue>
-                                                        </Data>
-                                                        <Data property = "Rotation">
-                                                            <Double>180.0</Double>
-                                                        </Data>
-                                                        <Data property = "ScaleX">
-                                                            <Double>1.0</Double>
-                                                        </Data>
-                                                        <Data property = "ScaleY">
-                                                            <Double>1.0</Double>
-                                                        </Data>
-                                                        <References
-                                                            objects = "DiscProfile/ND0009A"
-                                                            property = "Symbol"/>
-                                                    </Object>
-                                                </Components>
-                                            </Object>
-                                            <Object type = "Core/Diagram.RepresentationGroup">
-                                                <Components property = "NodePositions">
-                                                    <Object
-                                                        id = "PipingNodePosition2"
-                                                        type = "Plant/Diagram.PipingNodePosition">
-                                                        <References
-                                                            objects = "#PipingNode1"
-                                                            property = "Node"/>
-                                                        <Data property = "Position">
-                                                            <AggregatedDataValue type = "Core/Diagram.Point">
-                                                                <Data property = "X">
-                                                                    <Double>758.0</Double>
-                                                                </Data>
-                                                                <Data property = "Y">
-                                                                    <Double>330.0</Double>
-                                                                </Data>
-                                                            </AggregatedDataValue>
-                                                        </Data>
-                                                    </Object>
-                                                </Components>
-                                                <References
-                                                    objects = "#PipingNode1"
-                                                    property = "Represents"/>
-                                            </Object>
-                                        </Components>
-                                        <References
-                                            objects = "#FlowOutPipeOffPageConnector1"
-                                            property = "Represents"/>
-                                    </Object>
-                                </Components>
-                                <References
-                                    objects = "#PipingNetworkSegment1"
-                                    property = "Represents"/>
-                            </Object>
-                        </Components>
-                        <References
-                            objects = "#PipingNetworkSystem1"
-                            property = "Represents"/>
-                    </Object>
+                <Data property="Value">
+                  <String>6f5fd3f2-448d-dfef-7173-156fb9820fed</String>
+                </Data>
+              </Object>
+            </Components>
+            <Data property="PipingClassCode">
+              <String>AD200</String>
+            </Data>
+            <References objects="#PlantSystem1" property="PlantSystem"/>
+            <Data property="DiscProfile/ProductCode">
+              <String>PL</String>
+            </Data>
+            <Components property="Segments">
+              <Object id="PipingNetworkSegment1" type="Plant/Piping.PipingNetworkSegment">
+                <Components property="Connections">
+                  <Object id="Pipe1" type="Plant/Piping.Pipe">
+                    <References objects="#FlowOutPipeOffPageConnector1" property="TargetItem"/>
+                    <References objects="#PipingNode1" property="TargetNode"/>
+                  </Object>
                 </Components>
-                <Data property = "MaxX">
-                    <Double>841.0</Double>
+                <Data property="HeatTracingType">
+                  <DataReference data="Plant/Enumerations.HeatTracingTypeClassification.NoHeatTracingSystem"/>
                 </Data>
-                <Data property = "MaxY">
-                    <Double>594.0</Double>
+                <Components property="Items">
+                  <Object id="FlowOutPipeOffPageConnector1" type="Plant/Piping.FlowOutPipeOffPageConnector">
+                    <Components property="ConnectorReference">
+                      <Object type="Plant/Piping.PipeOffPageConnectorReferenceByNumber">
+                        <Data property="ReferencedConnectorNumber">
+                          <String>123</String>
+                        </Data>
+                        <Data property="DiscProfile/ReferencedDrawingDescriptor">
+                          <String>TO TEST P&amp;ID1</String>
+                        </Data>
+                        <Data property="ReferencedDrawingNumber">
+                          <String>C01_NOA1</String>
+                        </Data>
+                      </Object>
+                    </Components>
+                    <Components property="Nodes">
+                      <Object id="PipingNode1" type="Plant/Piping.PipingNode"/>
+                    </Components>
+                    <Components property="PersistentIdentifiers">
+                      <Object type="Core/PersistentIdentifier">
+                        <Data property="Context">
+                          <String>DISC DEXPI</String>
+                        </Data>
+                        <Data property="Value">
+                          <String>8c7cf046-2b6b-8843-779c-d2dc021dcd87</String>
+                        </Data>
+                      </Object>
+                    </Components>
+                    <Data property="PipeConnectorNumber">
+                      <String>123</String>
+                    </Data>
+                  </Object>
+                </Components>
+                <Data property="NominalDiameterNumericalValueRepresentation">
+                  <String>1800</String>
                 </Data>
-                <Data property = "MinX">
-                    <Double>0.0</Double>
+                <Data property="DiscProfile/SegmentLineTypeRepresentation">
+                  <String>Primary</String>
                 </Data>
-                <Data property = "MinY">
-                    <Double>0.0</Double>
+                <Data property="Slope">
+                  <DataReference data="Plant/Enumerations.PipingNetworkSegmentSlopeClassification.UnslopedPipingNetworkSegment"/>
                 </Data>
-                <Data property = "Name">
-                    <String>C01 NOA2 Reference</String>
-                </Data>
-                <References
-                    objects = "#PlantModel1"
-                    property = "Represents"/>
-            </Object>
+                <References objects="#FlowOutPipeOffPageConnector1" property="TargetItem"/>
+                <References objects="#PipingNode1" property="TargetNode"/>
+              </Object>
+            </Components>
+            <Data property="DiscProfile/TagType">
+              <String>L</String>
+            </Data>
+          </Object>
         </Components>
-        <Data property = "ExportDateTime">
-            <DateTime>2025-10-28T09:00:00</DateTime>
+        <Components property="PlantStructureItems">
+          <Object id="ProcessPlant1" type="Plant/PlantStructure.ProcessPlant">
+            <Components property="PersistentIdentifiers">
+              <Object type="Core/PersistentIdentifier">
+                <Data property="Context">
+                  <String>DISC DEXPI</String>
+                </Data>
+                <Data property="Value">
+                  <String>d9bafacf-f0d7-f031-2f57-49204d7d82d5</String>
+                </Data>
+              </Object>
+            </Components>
+            <Data property="ProcessPlantIdentificationCode">
+              <String>D</String>
+            </Data>
+          </Object>
+          <Object id="PlantSystem1" type="Plant/PlantStructure.PlantSystem">
+            <Components property="PersistentIdentifiers">
+              <Object type="Core/PersistentIdentifier">
+                <Data property="Context">
+                  <String>DISC DEXPI</String>
+                </Data>
+                <Data property="Value">
+                  <String>089bb0ce-82d5-8073-6ab6-c6f4aa968b6b</String>
+                </Data>
+              </Object>
+            </Components>
+            <Data property="PlantSystemIdentificationCode">
+              <String>20</String>
+            </Data>
+          </Object>
+        </Components>
+      </Object>
+    </Components>
+    <Components property="Diagram">
+      <Object type="Core/Diagram.Diagram">
+        <Data property="BackgroundColor">
+          <AggregatedDataValue type="Core/Diagram.Color">
+            <Data property="B">
+              <Integer>200</Integer>
+            </Data>
+            <Data property="G">
+              <Integer>200</Integer>
+            </Data>
+            <Data property="R">
+              <Integer>200</Integer>
+            </Data>
+          </AggregatedDataValue>
         </Data>
-        <Data property = "OriginatingSystemName">
-            <String>pnb unit test</String>
+        <Components property="Groups">
+          <Object type="Core/Diagram.RepresentationGroup">
+            <Components property="Groups">
+              <Object type="Core/Diagram.Label">
+                <Components property="Elements">
+                  <Object type="Profile/SymbolUsage">
+                    <Data property="IsMirrored">
+                      <Boolean>false</Boolean>
+                    </Data>
+                    <Data property="Position">
+                      <AggregatedDataValue type="Core/Diagram.Point">
+                        <Data property="X">
+                          <Double>651.0</Double>
+                        </Data>
+                        <Data property="Y">
+                          <Double>326.0</Double>
+                        </Data>
+                      </AggregatedDataValue>
+                    </Data>
+                    <Data property="Rotation">
+                      <Double>0.0</Double>
+                    </Data>
+                    <Data property="ScaleX">
+                      <Double>1.0</Double>
+                    </Data>
+                    <Data property="ScaleY">
+                      <Double>1.0</Double>
+                    </Data>
+                    <References objects="DiscProfile/ND0040" property="Symbol"/>
+                  </Object>
+                </Components>
+              </Object>
+              <Object type="Core/Diagram.RepresentationGroup">
+                <Components property="Groups">
+                  <Object type="Core/Diagram.RepresentationGroup">
+                    <Components property="Groups">
+                      <Object type="Core/Diagram.Static">
+                        <Components property="Elements">
+                          <Object type="Core/Diagram.ConnectorLine">
+                            <References objects="#PipingNodePosition1" property="Source"/>
+                            <Data property="Stroke">
+                              <AggregatedDataValue type="Core/Diagram.Stroke">
+                                <Data property="Color">
+                                  <AggregatedDataValue type="Core/Diagram.Color">
+                                    <Data property="B">
+                                      <Integer>127</Integer>
+                                    </Data>
+                                    <Data property="G">
+                                      <Integer>127</Integer>
+                                    </Data>
+                                    <Data property="R">
+                                      <Integer>127</Integer>
+                                    </Data>
+                                  </AggregatedDataValue>
+                                </Data>
+                                <Data property="DashStyle">
+                                  <DataReference data="Core/Diagram.DashStyle.Solid"/>
+                                </Data>
+                                <Data property="Width">
+                                  <Double>1.0</Double>
+                                </Data>
+                              </AggregatedDataValue>
+                            </Data>
+                            <References objects="#PipingNodePosition2" property="Target"/>
+                          </Object>
+                        </Components>
+                      </Object>
+                    </Components>
+                    <Components property="NodePositions">
+                      <Object id="PipingNodePosition1" type="Plant/Diagram.PipingNodePosition">
+                        <Data property="Position">
+                          <AggregatedDataValue type="Core/Diagram.Point">
+                            <Data property="X">
+                              <Double>523.0</Double>
+                            </Data>
+                            <Data property="Y">
+                              <Double>330.0</Double>
+                            </Data>
+                          </AggregatedDataValue>
+                        </Data>
+                      </Object>
+                    </Components>
+                    <References objects="#Pipe1" property="Represents"/>
+                  </Object>
+                  <Object type="Core/Diagram.RepresentationGroup">
+                    <Components property="Groups">
+                      <Object type="Core/Diagram.Static">
+                        <Components property="Elements">
+                          <Object type="Profile/SymbolUsage">
+                            <Data property="IsMirrored">
+                              <Boolean>false</Boolean>
+                            </Data>
+                            <Data property="Position">
+                              <AggregatedDataValue type="Core/Diagram.Point">
+                                <Data property="X">
+                                  <Double>778.0</Double>
+                                </Data>
+                                <Data property="Y">
+                                  <Double>330.0</Double>
+                                </Data>
+                              </AggregatedDataValue>
+                            </Data>
+                            <Data property="Rotation">
+                              <Double>180.0</Double>
+                            </Data>
+                            <Data property="ScaleX">
+                              <Double>1.0</Double>
+                            </Data>
+                            <Data property="ScaleY">
+                              <Double>1.0</Double>
+                            </Data>
+                            <References objects="DiscProfile/ND0009A" property="Symbol"/>
+                          </Object>
+                        </Components>
+                      </Object>
+                      <Object type="Core/Diagram.RepresentationGroup">
+                        <Components property="NodePositions">
+                          <Object id="PipingNodePosition2" type="Plant/Diagram.PipingNodePosition">
+                            <References objects="#PipingNode1" property="Node"/>
+                            <Data property="Position">
+                              <AggregatedDataValue type="Core/Diagram.Point">
+                                <Data property="X">
+                                  <Double>758.0</Double>
+                                </Data>
+                                <Data property="Y">
+                                  <Double>330.0</Double>
+                                </Data>
+                              </AggregatedDataValue>
+                            </Data>
+                          </Object>
+                        </Components>
+                        <References objects="#PipingNode1" property="Represents"/>
+                      </Object>
+                    </Components>
+                    <References objects="#FlowOutPipeOffPageConnector1" property="Represents"/>
+                  </Object>
+                </Components>
+                <References objects="#PipingNetworkSegment1" property="Represents"/>
+              </Object>
+            </Components>
+            <References objects="#PipingNetworkSystem1" property="Represents"/>
+          </Object>
+        </Components>
+        <Data property="MaxX">
+          <Double>841.0</Double>
         </Data>
-        <Data property = "OriginatingSystemVendorName">
-            <String>pnb plants &amp; bytes GmbH, Aachen, Germany</String>
+        <Data property="MaxY">
+          <Double>594.0</Double>
         </Data>
-        <Data property = "OriginatingSystemVersion">
-            <String>current</String>
+        <Data property="MinX">
+          <Double>0.0</Double>
         </Data>
-    </Object>
+        <Data property="MinY">
+          <Double>0.0</Double>
+        </Data>
+        <Data property="Name">
+          <String>C01 NOA2 Reference</String>
+        </Data>
+        <References objects="#PlantModel1" property="Represents"/>
+      </Object>
+    </Components>
+    <Data property="ExportDateTime">
+      <DateTime>2025-10-28T09:00:00</DateTime>
+    </Data>
+    <Data property="OriginatingSystemName">
+      <String>pnb unit test</String>
+    </Data>
+    <Data property="OriginatingSystemVendorName">
+      <String>pnb plants &amp; bytes GmbH, Aachen, Germany</String>
+    </Data>
+    <Data property="OriginatingSystemVersion">
+      <String>current</String>
+    </Data>
+  </Object>
 </Model>
