@@ -1566,6 +1566,16 @@
                     <Data property="DiscProfile/BreakValue2">
                       <String>D-20L00004B</String>
                     </Data>
+                    <Components property="DiscProfile/LogicalBreaks">
+                      <Object type="DiscProfile/InformationModel.LineIdBreak">
+                        <Data property="BreakValue1">
+                          <String>D-20L00004A</String>
+                        </Data>
+                        <Data property="BreakValue2">
+                          <String>D-20L00004B</String>
+                        </Data>
+                      </Object>
+                    </Components>
                     <Components property="Nodes">
                       <Object id="PipingNode52" type="Plant/Piping.PipingNode"/>
                       <Object id="PipingNode55" type="Plant/Piping.PipingNode"/>
@@ -2754,6 +2764,16 @@
                     <Data property="DiscProfile/BreakValue2">
                       <String>AD750</String>
                     </Data>
+                    <Components property="DiscProfile/LogicalBreaks">
+                      <Object type="DiscProfile/InformationModel.AreaBreak">
+                        <Data property="BreakValue1">
+                          <String>AS200</String>
+                        </Data>
+                        <Data property="BreakValue2">
+                          <String>AD750</String>
+                        </Data>
+                      </Object>
+                    </Components>
                     <Components property="Nodes">
                       <Object id="PipingNode100" type="Plant/Piping.PipingNode"/>
                       <Object id="PipingNode101" type="Plant/Piping.PipingNode"/>

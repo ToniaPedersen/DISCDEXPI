@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="841" height="594" viewBox="0 0 841 594">
+  <g>
+    <g>
+      <g>
+        <g transform="translate(201,326)"/>
+      </g>
+      <g>
+        <g>
+          <g>
+            <g transform="translate(49,330)">
+              <polyline points="20,3 24,0" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="20,-3 24,0" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="-20,3 20,3" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="-20,-3 20,-3" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="-20,3 -20,-3" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </g>
+          <g/>
+          <g>
+            <text fill="#000000" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(50.5,331.65)">C01_NOA1</text>
+          </g>
+          <g>
+            <text fill="#000000" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(50.5,326)">FROM TEST P&amp;ID1</text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <polyline points="308,330 73,330" stroke="#7f7f7f" stroke-dasharray="none" stroke-dashoffset="0mm"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <text fill="#000000" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(201,327.65)">D-20L00005A-1200PL-AS200-</text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <g>
+          <g transform="translate(49,240)">
+            <polyline points="20,3 24,0" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="20,-3 24,0" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="-20,3 20,3" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="-20,-3 20,-3" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="-20,3 -20,-3" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <text fill="#000000" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(50.5,241.65)">C01_NOA1</text>
+        </g>
+        <g>
+          <text fill="#000000" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(50.5,236)">FROM TEST P&amp;ID1</text>
+        </g>
+      </g>
+      <g>
+        <g>
+          <polyline points="308,240 73,240" stroke="#000000" stroke-width="0.25" stroke-dasharray="3 3" stroke-dashoffset="0.125"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

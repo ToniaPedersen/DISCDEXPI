@@ -272,7 +272,7 @@
               <String>DISC</String>
             </Data>
             <Data property="RevisionNumber">
-              <String>10</String>
+              <String>12</String>
             </Data>
           </Object>
         </Components>
@@ -1623,13 +1623,31 @@
                   </Object>
                   <Object id="PropertyBreak1" type="Plant/Piping.PropertyBreak">
                     <Data property="DiscProfile/BreakValue1">
-                      <String>AP110
-                                                D-20L00004A</String>
+                      <String>AP310
+D-20L00004B</String>
                     </Data>
                     <Data property="DiscProfile/BreakValue2">
                       <String>AP310
                                                 D-20L00004B</String>
                     </Data>
+                    <Components property="DiscProfile/LogicalBreaks">
+                      <Object type="DiscProfile/InformationModel.AreaBreak">
+                        <Data property="BreakValue1">
+                          <String>AP110</String>
+                        </Data>
+                        <Data property="BreakValue2">
+                          <String>AP310</String>
+                        </Data>
+                      </Object>
+                      <Object type="DiscProfile/InformationModel.LineIdBreak">
+                        <Data property="BreakValue1">
+                          <String>D-20L00004A</String>
+                        </Data>
+                        <Data property="BreakValue2">
+                          <String>D-20L00004B</String>
+                        </Data>
+                      </Object>
+                    </Components>
                     <Components property="Nodes">
                       <Object id="PipingNode58" type="Plant/Piping.PipingNode"/>
                       <Object id="PipingNode59" type="Plant/Piping.PipingNode"/>
@@ -2994,12 +3012,6 @@
                     <References objects="#PropertyBreak2" property="TargetItem"/>
                     <References objects="#PipingNode115" property="TargetNode"/>
                   </Object>
-                  <Object type="Plant/Piping.DirectPipingConnection">
-                    <References objects="#PropertyBreak2" property="SourceItem"/>
-                    <References objects="#PipingNode116" property="SourceNode"/>
-                    <References objects="#PropertyBreak3" property="TargetItem"/>
-                    <References objects="#PipingNode117" property="TargetNode"/>
-                  </Object>
                 </Components>
                 <Data property="HeatTracingType">
                   <DataReference data="Plant/Enumerations.HeatTracingTypeClassification.HeatTracingSystem"/>
@@ -3032,26 +3044,34 @@
                   </Object>
                   <Object id="PropertyBreak2" type="Plant/Piping.PropertyBreak">
                     <Data property="DiscProfile/BreakValue1">
-                      <String>AP110</String>
+                      <String>AP110
+AS200</String>
                     </Data>
                     <Data property="DiscProfile/BreakValue2">
-                      <String>AP310</String>
+                      <String>AP310
+AD750</String>
                     </Data>
+                    <Components property="DiscProfile/LogicalBreaks">
+                      <Object type="DiscProfile/InformationModel.AreaBreak">
+                        <Data property="BreakValue1">
+                          <String>AP110</String>
+                        </Data>
+                        <Data property="BreakValue2">
+                          <String>AP310</String>
+                        </Data>
+                      </Object>
+                      <Object type="DiscProfile/InformationModel.PipingClassBreak">
+                        <Data property="BreakValue1">
+                          <String>AS200</String>
+                        </Data>
+                        <Data property="BreakValue2">
+                          <String>AD750</String>
+                        </Data>
+                      </Object>
+                    </Components>
                     <Components property="Nodes">
                       <Object id="PipingNode115" type="Plant/Piping.PipingNode"/>
                       <Object id="PipingNode116" type="Plant/Piping.PipingNode"/>
-                    </Components>
-                  </Object>
-                  <Object id="PropertyBreak3" type="Plant/Piping.PropertyBreak">
-                    <Data property="DiscProfile/BreakValue1">
-                      <String>AS200</String>
-                    </Data>
-                    <Data property="DiscProfile/BreakValue2">
-                      <String>AD750</String>
-                    </Data>
-                    <Components property="Nodes">
-                      <Object id="PipingNode117" type="Plant/Piping.PipingNode"/>
-                      <Object id="PipingNode118" type="Plant/Piping.PipingNode"/>
                     </Components>
                     <Data property="PipingClassBreak">
                       <DataReference data="Plant/Enumerations.PipingClassBreakClassification.PipingClassBreak"/>
@@ -3069,8 +3089,8 @@
                 </Data>
                 <References objects="#PipeTee6" property="SourceItem"/>
                 <References objects="#PipingNode112" property="SourceNode"/>
-                <References objects="#PropertyBreak3" property="TargetItem"/>
-                <References objects="#PipingNode118" property="TargetNode"/>
+                <References objects="#PropertyBreak2" property="TargetItem"/>
+                <References objects="#PipingNode116" property="TargetNode"/>
               </Object>
             </Components>
             <Data property="DiscProfile/TagType">
@@ -3116,16 +3136,16 @@
               <Object id="PipingNetworkSegment32" type="Plant/Piping.PipingNetworkSegment">
                 <Components property="Connections">
                   <Object id="Pipe39" type="Plant/Piping.Pipe">
-                    <References objects="#PropertyBreak3" property="SourceItem"/>
-                    <References objects="#PipingNode118" property="SourceNode"/>
+                    <References objects="#PropertyBreak2" property="SourceItem"/>
+                    <References objects="#PipingNode116" property="SourceNode"/>
                     <References objects="#Flange16" property="TargetItem"/>
-                    <References objects="#PipingNode119" property="TargetNode"/>
+                    <References objects="#PipingNode117" property="TargetNode"/>
                   </Object>
                   <Object type="Plant/Piping.DirectPipingConnection">
                     <References objects="#Flange16" property="SourceItem"/>
-                    <References objects="#PipingNode120" property="SourceNode"/>
+                    <References objects="#PipingNode118" property="SourceNode"/>
                     <References objects="#Nozzle18" property="TargetItem"/>
-                    <References objects="#PipingNode121" property="TargetNode"/>
+                    <References objects="#PipingNode119" property="TargetNode"/>
                   </Object>
                 </Components>
                 <Data property="HeatTracingType">
@@ -3137,8 +3157,8 @@
                       <Undefined/>
                     </Data>
                     <Components property="Nodes">
-                      <Object id="PipingNode119" type="Plant/Piping.PipingNode"/>
-                      <Object id="PipingNode120" type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode117" type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode118" type="Plant/Piping.PipingNode"/>
                     </Components>
                     <Components property="PersistentIdentifiers">
                       <Object type="Core/PersistentIdentifier">
@@ -3161,10 +3181,10 @@
                 <Data property="Slope">
                   <DataReference data="Plant/Enumerations.PipingNetworkSegmentSlopeClassification.SlopedPipingNetworkSegment"/>
                 </Data>
-                <References objects="#PropertyBreak3" property="SourceItem"/>
-                <References objects="#PipingNode118" property="SourceNode"/>
+                <References objects="#PropertyBreak2" property="SourceItem"/>
+                <References objects="#PipingNode116" property="SourceNode"/>
                 <References objects="#Nozzle18" property="TargetItem"/>
-                <References objects="#PipingNode121" property="TargetNode"/>
+                <References objects="#PipingNode119" property="TargetNode"/>
               </Object>
             </Components>
             <Data property="DiscProfile/TagType">
@@ -3210,27 +3230,27 @@
                 <Components property="Connections">
                   <Object id="Pipe40" type="Plant/Piping.Pipe">
                     <References objects="#Flange17" property="SourceItem"/>
-                    <References objects="#PipingNode122" property="SourceNode"/>
+                    <References objects="#PipingNode120" property="SourceNode"/>
                     <References objects="#GateValve3" property="TargetItem"/>
-                    <References objects="#PipingNode123" property="TargetNode"/>
+                    <References objects="#PipingNode121" property="TargetNode"/>
                   </Object>
                   <Object id="Pipe41" type="Plant/Piping.Pipe">
                     <References objects="#GateValve3" property="SourceItem"/>
-                    <References objects="#PipingNode124" property="SourceNode"/>
+                    <References objects="#PipingNode122" property="SourceNode"/>
                     <References objects="#Flange18" property="TargetItem"/>
-                    <References objects="#PipingNode125" property="TargetNode"/>
+                    <References objects="#PipingNode123" property="TargetNode"/>
                   </Object>
                   <Object type="Plant/Piping.DirectPipingConnection">
                     <References objects="#Nozzle19" property="SourceItem"/>
-                    <References objects="#PipingNode126" property="SourceNode"/>
+                    <References objects="#PipingNode124" property="SourceNode"/>
                     <References objects="#Flange17" property="TargetItem"/>
-                    <References objects="#PipingNode127" property="TargetNode"/>
+                    <References objects="#PipingNode125" property="TargetNode"/>
                   </Object>
                   <Object type="Plant/Piping.DirectPipingConnection">
                     <References objects="#Flange18" property="SourceItem"/>
-                    <References objects="#PipingNode128" property="SourceNode"/>
+                    <References objects="#PipingNode126" property="SourceNode"/>
                     <References objects="#Nozzle20" property="TargetItem"/>
-                    <References objects="#PipingNode129" property="TargetNode"/>
+                    <References objects="#PipingNode127" property="TargetNode"/>
                   </Object>
                 </Components>
                 <Data property="HeatTracingType">
@@ -3242,8 +3262,8 @@
                       <Undefined/>
                     </Data>
                     <Components property="Nodes">
-                      <Object id="PipingNode127" type="Plant/Piping.PipingNode"/>
-                      <Object id="PipingNode122" type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode125" type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode120" type="Plant/Piping.PipingNode"/>
                     </Components>
                     <Components property="PersistentIdentifiers">
                       <Object type="Core/PersistentIdentifier">
@@ -3261,8 +3281,8 @@
                       <String>D-20PV0004</String>
                     </Data>
                     <Components property="Nodes">
-                      <Object id="PipingNode123" type="Plant/Piping.PipingNode"/>
-                      <Object id="PipingNode124" type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode121" type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode122" type="Plant/Piping.PipingNode"/>
                     </Components>
                     <Components property="PersistentIdentifiers">
                       <Object type="Core/PersistentIdentifier">
@@ -3286,8 +3306,8 @@
                       <Undefined/>
                     </Data>
                     <Components property="Nodes">
-                      <Object id="PipingNode125" type="Plant/Piping.PipingNode"/>
-                      <Object id="PipingNode128" type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode123" type="Plant/Piping.PipingNode"/>
+                      <Object id="PipingNode126" type="Plant/Piping.PipingNode"/>
                     </Components>
                     <Components property="PersistentIdentifiers">
                       <Object type="Core/PersistentIdentifier">
@@ -3311,9 +3331,9 @@
                   <DataReference data="Plant/Enumerations.PipingNetworkSegmentSlopeClassification.UnslopedPipingNetworkSegment"/>
                 </Data>
                 <References objects="#Nozzle19" property="SourceItem"/>
-                <References objects="#PipingNode126" property="SourceNode"/>
+                <References objects="#PipingNode124" property="SourceNode"/>
                 <References objects="#Nozzle20" property="TargetItem"/>
-                <References objects="#PipingNode129" property="TargetNode"/>
+                <References objects="#PipingNode127" property="TargetNode"/>
               </Object>
             </Components>
             <Data property="DiscProfile/TagType">
@@ -4945,7 +4965,7 @@
                   <String>N05</String>
                 </Data>
                 <Components property="Nodes">
-                  <Object id="PipingNode121" type="Plant/Piping.PipingNode"/>
+                  <Object id="PipingNode119" type="Plant/Piping.PipingNode"/>
                 </Components>
                 <Data property="DiscProfile/ObjectDisplayName">
                   <String>N05</String>
@@ -4978,7 +4998,7 @@
                   <String>N06</String>
                 </Data>
                 <Components property="Nodes">
-                  <Object id="PipingNode129" type="Plant/Piping.PipingNode"/>
+                  <Object id="PipingNode127" type="Plant/Piping.PipingNode"/>
                 </Components>
                 <Data property="DiscProfile/ObjectDisplayName">
                   <String>N06</String>
@@ -5264,7 +5284,7 @@
                   <String>N02</String>
                 </Data>
                 <Components property="Nodes">
-                  <Object id="PipingNode126" type="Plant/Piping.PipingNode"/>
+                  <Object id="PipingNode124" type="Plant/Piping.PipingNode"/>
                 </Components>
                 <Data property="DiscProfile/ObjectDisplayName">
                   <String>N02</String>
@@ -7143,7 +7163,7 @@
                   <Object type="Core/Diagram.RepresentationGroup">
                     <Components property="NodePositions">
                       <Object type="Plant/Diagram.PipingNodePosition">
-                        <References objects="#PipingNode121" property="Node"/>
+                        <References objects="#PipingNode119" property="Node"/>
                         <Data property="Position">
                           <AggregatedDataValue type="Core/Diagram.Point">
                             <Data property="X">
@@ -7156,7 +7176,7 @@
                         </Data>
                       </Object>
                     </Components>
-                    <References objects="#PipingNode121" property="Represents"/>
+                    <References objects="#PipingNode119" property="Represents"/>
                   </Object>
                 </Components>
                 <References objects="#Nozzle18" property="Represents"/>
@@ -7254,7 +7274,7 @@
                   <Object type="Core/Diagram.RepresentationGroup">
                     <Components property="NodePositions">
                       <Object type="Plant/Diagram.PipingNodePosition">
-                        <References objects="#PipingNode129" property="Node"/>
+                        <References objects="#PipingNode127" property="Node"/>
                         <Data property="Position">
                           <AggregatedDataValue type="Core/Diagram.Point">
                             <Data property="X">
@@ -7267,7 +7287,7 @@
                         </Data>
                       </Object>
                     </Components>
-                    <References objects="#PipingNode129" property="Represents"/>
+                    <References objects="#PipingNode127" property="Represents"/>
                   </Object>
                 </Components>
                 <References objects="#Nozzle20" property="Represents"/>
@@ -8038,7 +8058,7 @@
                   <Object type="Core/Diagram.RepresentationGroup">
                     <Components property="NodePositions">
                       <Object type="Plant/Diagram.PipingNodePosition">
-                        <References objects="#PipingNode126" property="Node"/>
+                        <References objects="#PipingNode124" property="Node"/>
                         <Data property="Position">
                           <AggregatedDataValue type="Core/Diagram.Point">
                             <Data property="X">
@@ -8051,7 +8071,7 @@
                         </Data>
                       </Object>
                     </Components>
-                    <References objects="#PipingNode126" property="Represents"/>
+                    <References objects="#PipingNode124" property="Represents"/>
                   </Object>
                 </Components>
                 <References objects="#Nozzle19" property="Represents"/>
@@ -15745,76 +15765,6 @@
                                   <Double>562.0</Double>
                                 </Data>
                                 <Data property="Y">
-                                  <Double>198.0</Double>
-                                </Data>
-                              </AggregatedDataValue>
-                            </Data>
-                            <Data property="Rotation">
-                              <Double>0.0</Double>
-                            </Data>
-                            <Data property="ScaleX">
-                              <Double>1.0</Double>
-                            </Data>
-                            <Data property="ScaleY">
-                              <Double>1.0</Double>
-                            </Data>
-                            <References objects="DiscProfile/ND0007" property="Symbol"/>
-                          </Object>
-                        </Components>
-                      </Object>
-                      <Object type="Core/Diagram.RepresentationGroup">
-                        <Components property="NodePositions">
-                          <Object type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode115" property="Node"/>
-                            <Data property="Position">
-                              <AggregatedDataValue type="Core/Diagram.Point">
-                                <Data property="X">
-                                  <Double>583.0</Double>
-                                </Data>
-                                <Data property="Y">
-                                  <Double>215.0</Double>
-                                </Data>
-                              </AggregatedDataValue>
-                            </Data>
-                          </Object>
-                        </Components>
-                        <References objects="#PipingNode115" property="Represents"/>
-                      </Object>
-                      <Object type="Core/Diagram.RepresentationGroup">
-                        <Components property="NodePositions">
-                          <Object type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode116" property="Node"/>
-                            <Data property="Position">
-                              <AggregatedDataValue type="Core/Diagram.Point">
-                                <Data property="X">
-                                  <Double>583.0</Double>
-                                </Data>
-                                <Data property="Y">
-                                  <Double>215.0</Double>
-                                </Data>
-                              </AggregatedDataValue>
-                            </Data>
-                          </Object>
-                        </Components>
-                        <References objects="#PipingNode116" property="Represents"/>
-                      </Object>
-                    </Components>
-                    <References objects="#PropertyBreak2" property="Represents"/>
-                  </Object>
-                  <Object type="Core/Diagram.RepresentationGroup">
-                    <Components property="Groups">
-                      <Object type="Core/Diagram.Static">
-                        <Components property="Elements">
-                          <Object type="Profile/SymbolUsage">
-                            <Data property="IsMirrored">
-                              <Boolean>false</Boolean>
-                            </Data>
-                            <Data property="Position">
-                              <AggregatedDataValue type="Core/Diagram.Point">
-                                <Data property="X">
-                                  <Double>562.0</Double>
-                                </Data>
-                                <Data property="Y">
                                   <Double>205.0</Double>
                                 </Data>
                               </AggregatedDataValue>
@@ -15886,7 +15836,7 @@
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode117" property="Node"/>
+                            <References objects="#PipingNode115" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -15899,12 +15849,12 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode117" property="Represents"/>
+                        <References objects="#PipingNode115" property="Represents"/>
                       </Object>
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object id="PipingNodePosition77" type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode118" property="Node"/>
+                            <References objects="#PipingNode116" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -15917,10 +15867,10 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode118" property="Represents"/>
+                        <References objects="#PipingNode116" property="Represents"/>
                       </Object>
                     </Components>
-                    <References objects="#PropertyBreak3" property="Represents"/>
+                    <References objects="#PropertyBreak2" property="Represents"/>
                   </Object>
                 </Components>
                 <References objects="#PipingNetworkSegment31" property="Represents"/>
@@ -16060,7 +16010,7 @@
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object id="PipingNodePosition78" type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode119" property="Node"/>
+                            <References objects="#PipingNode117" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -16073,12 +16023,12 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode119" property="Represents"/>
+                        <References objects="#PipingNode117" property="Represents"/>
                       </Object>
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode120" property="Node"/>
+                            <References objects="#PipingNode118" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -16091,7 +16041,7 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode120" property="Represents"/>
+                        <References objects="#PipingNode118" property="Represents"/>
                       </Object>
                     </Components>
                     <References objects="#Flange16" property="Represents"/>
@@ -16169,7 +16119,7 @@
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode127" property="Node"/>
+                            <References objects="#PipingNode125" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -16182,12 +16132,12 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode127" property="Represents"/>
+                        <References objects="#PipingNode125" property="Represents"/>
                       </Object>
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object id="PipingNodePosition79" type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode122" property="Node"/>
+                            <References objects="#PipingNode120" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -16200,7 +16150,7 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode122" property="Represents"/>
+                        <References objects="#PipingNode120" property="Represents"/>
                       </Object>
                     </Components>
                     <References objects="#Flange17" property="Represents"/>
@@ -16347,7 +16297,7 @@
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object id="PipingNodePosition80" type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode123" property="Node"/>
+                            <References objects="#PipingNode121" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -16360,12 +16310,12 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode123" property="Represents"/>
+                        <References objects="#PipingNode121" property="Represents"/>
                       </Object>
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object id="PipingNodePosition81" type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode124" property="Node"/>
+                            <References objects="#PipingNode122" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -16378,7 +16328,7 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode124" property="Represents"/>
+                        <References objects="#PipingNode122" property="Represents"/>
                       </Object>
                     </Components>
                     <References objects="#GateValve3" property="Represents"/>
@@ -16463,7 +16413,7 @@
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object id="PipingNodePosition82" type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode125" property="Node"/>
+                            <References objects="#PipingNode123" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -16476,12 +16426,12 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode125" property="Represents"/>
+                        <References objects="#PipingNode123" property="Represents"/>
                       </Object>
                       <Object type="Core/Diagram.RepresentationGroup">
                         <Components property="NodePositions">
                           <Object type="Plant/Diagram.PipingNodePosition">
-                            <References objects="#PipingNode128" property="Node"/>
+                            <References objects="#PipingNode126" property="Node"/>
                             <Data property="Position">
                               <AggregatedDataValue type="Core/Diagram.Point">
                                 <Data property="X">
@@ -16494,7 +16444,7 @@
                             </Data>
                           </Object>
                         </Components>
-                        <References objects="#PipingNode128" property="Represents"/>
+                        <References objects="#PipingNode126" property="Represents"/>
                       </Object>
                     </Components>
                     <References objects="#Flange18" property="Represents"/>
