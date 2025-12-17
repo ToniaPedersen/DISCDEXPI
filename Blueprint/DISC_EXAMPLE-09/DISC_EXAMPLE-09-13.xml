@@ -4940,7 +4940,7 @@ AD750</String>
                   <Boolean>true</Boolean>
                 </Data>
                 <Data property="DiscProfile/IsVirtualMount">
-                  <Boolean>false</Boolean>
+                  <Boolean>true</Boolean>
                 </Data>
                 <Components property="Nodes">
                   <Object id="PipingNode1" type="Plant/Piping.PipingNode"/>
