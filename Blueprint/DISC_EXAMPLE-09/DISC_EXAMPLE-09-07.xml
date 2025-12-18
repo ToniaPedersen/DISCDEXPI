@@ -4368,9 +4368,6 @@
           <Object id="RotaryPump1" type="Plant/ProcessEquipment.RotaryPump">
             <Components property="Nozzles">
               <Object id="Nozzle2" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4401,9 +4398,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle3" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4462,9 +4456,6 @@
           <Object id="PlateHeatExchanger1" type="Plant/ProcessEquipment.PlateHeatExchanger">
             <Components property="Nozzles">
               <Object id="Nozzle4" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4495,9 +4486,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle7" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4528,9 +4516,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle6" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4561,9 +4546,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle5" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4622,9 +4604,6 @@
           <Object id="ElectricHeater1" type="Plant/ProcessEquipment.ElectricHeater">
             <Components property="Nozzles">
               <Object id="Nozzle10" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4655,9 +4634,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle9" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4688,9 +4664,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle21" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>true</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4740,9 +4713,6 @@
             </Data>
             <Components property="Nozzles">
               <Object id="Nozzle8" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4773,9 +4743,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle11" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4806,9 +4773,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle1" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4839,9 +4803,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle17" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4872,9 +4833,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle20" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4905,9 +4863,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle15" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4938,9 +4893,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle22" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -4996,9 +4948,6 @@
           <Object id="CentrifugalPump1" type="Plant/ProcessEquipment.CentrifugalPump">
             <Components property="Nozzles">
               <Object id="Nozzle12" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -5029,9 +4978,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle16" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -5090,9 +5036,6 @@
           <Object id="ShellAndFixedTubeHeatExchanger1" type="DiscProfile/InformationModel.ShellAndFixedTubeHeatExchanger">
             <Components property="Nozzles">
               <Object id="Nozzle18" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -5123,9 +5066,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle19" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -5156,9 +5096,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle14" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
@@ -5189,9 +5126,6 @@
                 </Data>
               </Object>
               <Object id="Nozzle13" type="Plant/ProcessEquipment.Nozzle">
-                <Data property="DiscProfile/IsVirtual">
-                  <Boolean>false</Boolean>
-                </Data>
                 <Data property="DiscProfile/IsVirtualMount">
                   <Boolean>false</Boolean>
                 </Data>
