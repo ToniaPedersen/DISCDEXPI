@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2026-03-23T10:58:19.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" etag="RSP57LrYS2c3EuQhaT6e" compressed="false" version="20.3.0" type="device">
+<mxfile host="Electron" modified="2026-03-24T09:23:55.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" etag="gjlyZxToU_-rXIg67XEn" compressed="false" version="20.3.0" type="device">
   <diagram name="ND0238" id="1CP9VX86ncTdAmcYDIcw">
-    <mxGraphModel dx="1422" dy="977" grid="0" gridSize="4" guides="0" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="857" grid="0" gridSize="4" guides="0" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-0" />
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-1" value="Grid" style="locked=1;" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
@@ -857,6 +857,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-135" value="Label" style="" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="A" id="Tg6DuTzOG7mMDY5pnk9b-0">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="22vkG-h5v2N9dKBLQ-ZE-135">
+            <mxGeometry x="777" y="416" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
         <object label="Symbol" Width="34" Height="43" UoM="mm" id="22vkG-h5v2N9dKBLQ-ZE-138">
           <mxCell style="" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
         </object>
@@ -876,7 +881,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0TKr0D3uV7ifaacMRhnd-17" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.4950280260882054;endAngle=0.9934406259495122;fillColor=none;rotation=-90;" parent="22vkG-h5v2N9dKBLQ-ZE-138" vertex="1">
-          <mxGeometry x="578.59" y="442" width="106" height="209.08" as="geometry" />
+          <mxGeometry x="564.39" y="427.8" width="134.41" height="209.08" as="geometry" />
         </mxCell>
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-124" value="Connection" style="" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-136" value="Origo" style="locked=1;" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
