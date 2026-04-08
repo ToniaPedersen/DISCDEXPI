@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2026-04-02T12:50:44.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="H3vZC1dRcVb4O7dEaoHX" compressed="false" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2026-04-07T11:56:46.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="KV67iguIUTo9uYP-lZfk" compressed="false" version="21.2.1" type="device">
   <diagram name="ND0227" id="1CP9VX86ncTdAmcYDIcw">
-    <mxGraphModel dx="241" dy="141" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-0" />
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-1" value="Grid" style="locked=1;" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
@@ -870,7 +870,7 @@
           </mxCell>
         </object>
         <object label="Symbol" Width="8" Height="6" UoM="mm" id="22vkG-h5v2N9dKBLQ-ZE-138">
-          <mxCell style="" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
+          <mxCell style="locked=1;" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
         </object>
         <mxCell id="vDobwC0pKVuJfFow1ML1-0" value="" style="endArrow=none;html=1;rounded=0;" parent="22vkG-h5v2N9dKBLQ-ZE-138" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -902,7 +902,7 @@
             <mxPoint x="512" y="416" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vDobwC0pKVuJfFow1ML1-5" value="TS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=0" parent="22vkG-h5v2N9dKBLQ-ZE-138" vertex="1">
+        <mxCell id="vDobwC0pKVuJfFow1ML1-5" value="TS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=0" parent="22vkG-h5v2N9dKBLQ-ZE-138" vertex="1">
           <mxGeometry x="450" y="322" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22vkG-h5v2N9dKBLQ-ZE-124" value="Connection" style="locked=1;" parent="22vkG-h5v2N9dKBLQ-ZE-0" />
