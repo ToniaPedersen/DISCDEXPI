@@ -1,0 +1,7 @@
+new PersistentIdentifiers
+  f4effc2a-b7bd-4909-9758-445b8e0cb1a4   CustomInlineMeasuringElement
+  99b4f128-b238-4186-992d-f3f6897ca17b   Nozzle (IsVirtualMount = true)
+
+removed PersistentIdentifiers
+  be431d18-6998-14d0-699b-449519d1c0d9   Flange
+  eeb858e0-a770-43c7-44ed-15e1989247f8   Nozzle (IsVirtualMount = false)
