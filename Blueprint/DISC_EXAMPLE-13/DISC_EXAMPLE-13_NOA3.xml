@@ -534,21 +534,21 @@
                     </Components>
                   </Object>
                 </Components>
+                <Components property="NodePositions">
+                  <Object id="InstrumentationNodePosition2" type="Plant/Diagram.InstrumentationNodePosition">
+                    <Data property="Position">
+                      <AggregatedDataValue type="Core/Diagram.Point">
+                        <Data property="X">
+                          <Double>308.0</Double>
+                        </Data>
+                        <Data property="Y">
+                          <Double>240.0</Double>
+                        </Data>
+                      </AggregatedDataValue>
+                    </Data>
+                  </Object>
+                </Components>
                 <References objects="#SignalConveyingFunction1" property="Represents"/>
-              </Object>
-            </Components>
-            <Components property="NodePositions">
-              <Object id="InstrumentationNodePosition2" type="Plant/Diagram.InstrumentationNodePosition">
-                <Data property="Position">
-                  <AggregatedDataValue type="Core/Diagram.Point">
-                    <Data property="X">
-                      <Double>308.0</Double>
-                    </Data>
-                    <Data property="Y">
-                      <Double>240.0</Double>
-                    </Data>
-                  </AggregatedDataValue>
-                </Data>
               </Object>
             </Components>
             <References objects="#ProcessInstrumentationFunction1" property="Represents"/>
