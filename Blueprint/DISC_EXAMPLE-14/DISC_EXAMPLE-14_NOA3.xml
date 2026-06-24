@@ -269,13 +269,13 @@
         <Data property="BackgroundColor">
           <AggregatedDataValue type="Core/Diagram.Color">
             <Data property="B">
-              <Integer>200</Integer>
+              <Integer>255</Integer>
             </Data>
             <Data property="G">
-              <Integer>200</Integer>
+              <Integer>255</Integer>
             </Data>
             <Data property="R">
-              <Integer>200</Integer>
+              <Integer>255</Integer>
             </Data>
           </AggregatedDataValue>
         </Data>
