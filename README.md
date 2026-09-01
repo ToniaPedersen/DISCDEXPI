@@ -18,7 +18,3 @@ Key features:
 * New Note class is valid in the underlying ProteusSchema used
 * Status Checker function provides function to check one xml against another. Primarily this is used to check current export status against the Blueprint file(s)
 
-Download: <https://my.hidrive.com/share/3d8ekf7sp3#$/Verificator>
-
-Please refer to DEXPI DISC Verificator File Comparison.pptx for usage
-
