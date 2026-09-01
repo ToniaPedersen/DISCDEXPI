@@ -1,4 +1,5 @@
 # DISC DEXPI Project
+This is a working space between Tonia and pnb for issues and ongoing development of the DISCProfile.
 
 DISC DEXPI Project:
 - symbol library with reference Symbol ID and DEXPI class mapping
