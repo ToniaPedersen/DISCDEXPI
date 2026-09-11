@@ -1,0 +1,8 @@
+identical PersistentIdentifiers
+  a5df49a2-c525-f0ea-eb7f-cf4deb4f168e   PipingNetworkSystem (also used in C01_NOA1)
+  a1e84309-3ed5-c2e2-77e7-861d0c968db7   ProcessInstrumentationFunction (also used in C01_NOA1)
+  de5bda42-e150-690f-ec7a-a086198f7013   SignalConveyingFunction (also used in C01_NOA1)
+  
+different PersistentIdentifiers
+  6c89394d-c2e1-48e1-b018-2a3689dad9a8   FlowInPipeOffPageConnector (in C01_NOA1 FlowOutPipeOPC)
+  99614cb3-d1ab-4b84-bbe6-5ae9c351d7a0   FlowInSignalOffPageConnector (in C01_NOA1 FlowOutSignalOPC)
