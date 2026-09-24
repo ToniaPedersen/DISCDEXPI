@@ -1,0 +1,116 @@
+<mxfile host="Electron" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" compressed="false" modified="2026-09-24T12:43:06.225Z" version="20.3.0" etag="u8mv8SOYZwk_3ywPo_1q" type="device">
+  <diagram name="ND0300B" id="ND0300B-diagram">
+    <mxGraphModel dx="1974" dy="1309" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="ND0300B-0" />
+        <object label="Symbol" Width="45.0" Height="50.0" UoM="mm" id="ND0300B-symbol">
+          <mxCell style="locked=1;" parent="ND0300B-0" />
+        </object>
+        <mxCell id="ND0300B-symbol-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" vertex="1">
+          <mxGeometry width="720" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0300B-symbol-2" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="640" as="sourcePoint" />
+            <mxPoint x="720" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0300B-symbol-3" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="320" as="sourcePoint" />
+            <mxPoint x="720" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0300B-symbol-4" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="480" as="sourcePoint" />
+            <mxPoint x="720" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0300B-symbol-5" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="400" as="sourcePoint" />
+            <mxPoint x="720" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0300B-symbol-6" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="560" as="sourcePoint" />
+            <mxPoint x="720" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0300B-symbol-7" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="240" as="sourcePoint" />
+            <mxPoint x="720" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0300B-symbol-8" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="720" as="sourcePoint" />
+            <mxPoint x="720" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0300B-symbol-9" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0300B-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="720" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0300B-label" value="Label" style="" parent="ND0300B-0" />
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="A" id="vSxEzwmzN0-5n4yEyHYv-0">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="320" y="32" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="2" LabelIndex="B" id="vSxEzwmzN0-5n4yEyHYv-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="320" y="144" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="C" id="vSxEzwmzN0-5n4yEyHYv-7">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="320" y="274" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="D" id="vSxEzwmzN0-5n4yEyHYv-9">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="320" y="352" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="E" id="vSxEzwmzN0-5n4yEyHYv-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="320" y="432" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="F" id="vSxEzwmzN0-5n4yEyHYv-11">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="322" y="512" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="G" id="vSxEzwmzN0-5n4yEyHYv-12">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="322" y="592" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="H" id="vSxEzwmzN0-5n4yEyHYv-13">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="320" y="674" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="1" LabelIndex="I" id="vSxEzwmzN0-5n4yEyHYv-14">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0300B-label">
+            <mxGeometry x="320" y="750" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ND0300B-connfolder" value="Connection" style="" parent="ND0300B-0" />
+        <mxCell id="ND0300B-origofolder" value="Origo" style="locked=1;" parent="ND0300B-0" />
+        <object label="origo" id="ND0300B-origo">
+          <mxCell style="ellipse;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=1;noLabel=1;" parent="ND0300B-origofolder" vertex="1">
+            <mxGeometry x="-4" y="-4" width="8" height="8" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
