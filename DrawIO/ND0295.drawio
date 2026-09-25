@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" compressed="false" modified="2026-09-25T09:45:25.426Z" version="20.3.0" etag="yZTfWSi-NhYnqFyi613s" type="device">
+  <diagram name="ND0295" id="ND0295-diagram">
+    <mxGraphModel dx="2575" dy="1668" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="ND0295-0" />
+        <object label="Symbol" Width="4.0" Height="9.0" UoM="mm" id="ND0295-symbol">
+          <mxCell style="" parent="ND0295-0" />
+        </object>
+        <mxCell id="ND0295-symbol-1" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.72;" parent="ND0295-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint y="48" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="48" />
+              <mxPoint x="32" y="96" />
+              <mxPoint y="144" />
+              <mxPoint x="-32" y="96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0295-label" value="Label" style="" parent="ND0295-0" />
+        <mxCell id="ND0295-connfolder" value="Connection" style="" parent="ND0295-0" />
+        <object label="Connection" PipingConnector="Y" LabelConnector="N" SignalConnector="N" Direction="270" AuxiliaryConnector="N" id="ND0295-connfolder-1">
+          <mxCell style="ellipse;html=1;fillColor=none;strokeColor=#00FF00;strokeWidth=1;noLabel=1;" parent="ND0295-connfolder" vertex="1">
+            <mxGeometry x="-6" y="-6" width="12" height="12" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ND0295-origofolder" value="Origo" style="locked=1;" parent="ND0295-0" />
+        <object label="origo" id="ND0295-origo">
+          <mxCell style="ellipse;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=1;noLabel=1;" parent="ND0295-origofolder" vertex="1">
+            <mxGeometry x="-4" y="-4" width="8" height="8" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
