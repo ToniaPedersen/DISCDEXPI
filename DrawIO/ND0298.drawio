@@ -1,0 +1,96 @@
+<mxfile host="Electron" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" compressed="false" modified="2026-09-29T13:24:59.041Z" version="20.3.0" etag="Fk696iHsEKnYnYtHL-vB" type="device">
+  <diagram name="ND0298" id="ND0297-diagram">
+    <mxGraphModel dx="2577" dy="1670" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="ND0297-0" />
+        <object label="Symbol" Width="2" Height="48" UoM="mm" id="ND0297-symbol">
+          <mxCell style="" parent="ND0297-0" />
+        </object>
+        <mxCell id="kEYLohK4X-81-2HD-Knz-0" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="ND0297-symbol">
+          <mxGeometry x="-368" y="368" width="768" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0297-symbol-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=0.52;rotation=90;" parent="kEYLohK4X-81-2HD-Knz-0" vertex="1">
+          <mxGeometry x="344" y="296" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0297-symbol-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=0.52;rotation=90;" parent="kEYLohK4X-81-2HD-Knz-0" vertex="1">
+          <mxGeometry x="344" y="-24" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0297-symbol-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=0.52;rotation=90;" parent="kEYLohK4X-81-2HD-Knz-0" vertex="1">
+          <mxGeometry x="344" y="-184" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0297-symbol-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=0.52;rotation=90;" parent="kEYLohK4X-81-2HD-Knz-0" vertex="1">
+          <mxGeometry x="344" y="-344" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0297-symbol-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=0.52;rotation=90;" parent="kEYLohK4X-81-2HD-Knz-0" vertex="1">
+          <mxGeometry x="344" y="136" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0297-symbol-6" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368" y="112" as="sourcePoint" />
+            <mxPoint x="368" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-symbol-7" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="32" as="sourcePoint" />
+            <mxPoint x="400" y="112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-symbol-8" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368" y="-368" as="sourcePoint" />
+            <mxPoint x="400" y="-368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="368" y="400" />
+              <mxPoint x="400" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-symbol-9" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368" y="-48" as="sourcePoint" />
+            <mxPoint x="368" y="-128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-symbol-10" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-128" as="sourcePoint" />
+            <mxPoint x="400" y="-48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-symbol-11" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368" y="-208" as="sourcePoint" />
+            <mxPoint x="368" y="-288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-symbol-12" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-288" as="sourcePoint" />
+            <mxPoint x="400" y="-208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-symbol-13" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="192" as="sourcePoint" />
+            <mxPoint x="400" y="272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-symbol-14" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="kEYLohK4X-81-2HD-Knz-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368" y="272" as="sourcePoint" />
+            <mxPoint x="368" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0297-label" value="Label" style="" parent="ND0297-0" />
+        <mxCell id="ND0297-connfolder" value="Connection" style="" parent="ND0297-0" />
+        <mxCell id="ND0297-origofolder" value="Origo" style="locked=1;" parent="ND0297-0" />
+        <object label="origo" id="ND0297-origo">
+          <mxCell style="ellipse;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=1;noLabel=1;" parent="ND0297-origofolder" vertex="1">
+            <mxGeometry x="-4" y="-4" width="8" height="8" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
