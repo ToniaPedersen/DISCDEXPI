@@ -1,0 +1,113 @@
+<mxfile host="Electron" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" compressed="false" modified="2026-09-28T07:18:14.692Z" etag="qVU06668wYEVyGsncjMG" version="20.3.0" type="device">
+  <diagram name="ND0301A" id="ND0301A-diagram">
+    <mxGraphModel dx="3144" dy="2029" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="ND0301A-0" />
+        <object label="Symbol" Width="65.0" Height="50.0" UoM="mm" id="ND0301A-symbol">
+          <mxCell style="" parent="ND0301A-0" />
+        </object>
+        <mxCell id="ND0301A-symbol-1" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="640" as="sourcePoint" />
+            <mxPoint x="1040" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0301A-symbol-2" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="560" as="sourcePoint" />
+            <mxPoint x="1040" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0301A-symbol-3" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="480" as="sourcePoint" />
+            <mxPoint x="1040" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0301A-symbol-4" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="400" as="sourcePoint" />
+            <mxPoint x="1040" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0301A-symbol-5" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="320" as="sourcePoint" />
+            <mxPoint x="1040" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0301A-symbol-6" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="240" as="sourcePoint" />
+            <mxPoint x="1040" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0301A-symbol-7" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="1040" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0301A-symbol-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry width="1040" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-9" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=0.52;" parent="ND0301A-symbol" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="720" as="sourcePoint" />
+            <mxPoint x="1040" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND0301A-symbol-10" value="DES./OPER.TEMPERATURE" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="30.4048" y="411.6384" width="497.831" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-11" value="°C" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="948" y="420" width="48" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-12" value="barg" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="915.5776" y="331.08" width="96" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-13" value="mm" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="933.944" y="248.4416" width="48" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-14" value="TAG NUMBER" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="31.2896" y="10.0448" width="237.0624" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-15" value="INS.CODE/THICKNESS/MATERIAL" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="30.7408" y="488.6816" width="640.0685" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-16" value="DES./OPER.PRESSURE" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="30.4048" y="331.6384" width="426.7123" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-17" value="SERVICE" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="31.8944" y="94.576" width="165.9437" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-18" value="DIMENSION ID x TT" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="32.448" y="250.5888" width="403.0061" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-19" value="PURCHASE NO." style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="30.7408" y="728.6816" width="284.4749" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-20" value="mm" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="933.944" y="488.4416" width="48" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-21" value="VENDOR" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="30.7408" y="648.6816" width="142.2374" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-22" value="PRESSURE VESSEL" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="31.8944" y="166.3776" width="355.5936" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-symbol-23" value="MATERIAL" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0301A-symbol" vertex="1">
+          <mxGeometry x="30.7408" y="568.6816" width="189.6499" height="35.5594" as="geometry" />
+        </mxCell>
+        <mxCell id="ND0301A-label" value="Label" style="" parent="ND0301A-0" />
+        <mxCell id="ND0301A-connfolder" value="Connection" style="" parent="ND0301A-0" />
+        <mxCell id="ND0301A-origofolder" value="Origo" style="locked=1;" parent="ND0301A-0" />
+        <object label="origo" id="ND0301A-origo">
+          <mxCell style="ellipse;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=1;noLabel=1;" parent="ND0301A-origofolder" vertex="1">
+            <mxGeometry x="-4" y="-4" width="8" height="8" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
