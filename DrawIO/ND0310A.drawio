@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" compressed="false" modified="2026-09-29T09:56:02.774Z" version="20.3.0" etag="P6smd1nxBtwBnaal4Azu" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" compressed="false" modified="2026-10-01T13:59:39.914Z" etag="61qBcYMGwcTidk9iYl5F" version="21.2.1" type="device">
   <diagram name="ND0310A" id="ND0310A-diagram">
-    <mxGraphModel dx="1408" dy="843" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3759" dy="2342" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ND0310A-0" />
         <object label="Symbol" Width="65.0" Height="50.0" UoM="mm" id="ND0310A-symbol">
@@ -57,51 +57,51 @@
             <mxPoint x="1040" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ND0310A-symbol-10" value="DIMENSION LxWxH" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-10" value="DIMENSION LxWxH" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="32.792" y="248.2736" width="355.5936" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-11" value="PURCHASE NO." style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-11" value="PURCHASE NO." style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="32.048" y="730.656" width="284.4749" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-12" value="mm" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-12" value="mm" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="935.1376" y="248.2736" width="47.4125" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-13" value="SERVICE" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-13" value="SERVICE" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="33.7216" y="89.6368" width="165.9437" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-14" value="VENDOR" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-14" value="VENDOR" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="32.048" y="649.0352" width="142.2374" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-15" value="TAG NUMBER" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-15" value="TAG NUMBER" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="33.1424" y="11.5888" width="237.0624" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-16" value="FLOW AT OPER. CONDITIONS" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-16" value="FLOW AT OPER. CONDITIONS" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="30.4048" y="331.6384" width="568.9498" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-17" value="DES./OPER. TEMPERATURE" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-17" value="DES./OPER. TEMPERATURE" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="30.4048" y="491.6384" width="521.5373" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-18" value="barg" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-18" value="barg" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="913.7344" y="408.784" width="96" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-19" value="m³/h" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-19" value="m³/h" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="916.6048" y="319.32" width="94.825" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-20" value="PACKAGE" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-20" value="PACKAGE" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="33.7216" y="155.128" width="165.9437" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-21" value="MATERIAL" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-21" value="MATERIAL" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="32.048" y="569.0352" width="189.6499" height="35.5594" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-22" value="°C" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-22" value="°C" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="960.064" y="487.9776" width="76.8" height="57.6" as="geometry" />
         </mxCell>
-        <mxCell id="ND0310A-symbol-23" value="DES./OPER. PRESSURE" style="text;html=0;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
+        <mxCell id="ND0310A-symbol-23" value="DES./OPER. PRESSURE" style="text;html=1;whiteSpace=nowrap;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#000000;rotation=0.0;" parent="ND0310A-symbol" vertex="1">
           <mxGeometry x="30.4048" y="411.6384" width="450.4186" height="35.5594" as="geometry" />
         </mxCell>
         <mxCell id="ND0310A-label" value="Label" style="" parent="ND0310A-0" />
         <mxCell id="ND0310A-connfolder" value="Connection" style="" parent="ND0310A-0" />
-        <mxCell id="ND0310A-origofolder" value="Origo" style="locked=1;" parent="ND0310A-0" visible="0" />
+        <mxCell id="ND0310A-origofolder" value="Origo" style="locked=1;" parent="ND0310A-0" />
         <object label="origo" id="ND0310A-origo">
           <mxCell style="ellipse;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=1;noLabel=1;" parent="ND0310A-origofolder" vertex="1">
             <mxGeometry x="-4" y="-4" width="8" height="8" as="geometry" />
