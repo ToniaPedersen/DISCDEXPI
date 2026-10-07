@@ -1,24 +1,29 @@
-<mxfile host="Electron" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" compressed="false" modified="2026-09-25T08:38:32.916Z" version="20.3.0" etag="g9-znD43Ne10f9KQ_Vj9" type="device">
+<mxfile host="Electron" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.3.0 Chrome/104.0.5112.114 Electron/20.1.3 Safari/537.36" compressed="false" modified="2026-10-07T06:11:25.539Z" etag="_iiHKEylIPUPrmxh0KeA" version="20.3.0" type="device">
   <diagram name="ND0288A" id="ND0288A-diagram">
-    <mxGraphModel dx="1638" dy="1108" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="2044" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ND0288A-0" />
         <object label="Symbol" Width="8.0" Height="4.0" UoM="mm" id="ND0288A-symbol">
-          <mxCell style="" parent="ND0288A-0" />
+          <mxCell style="locked=1;" parent="ND0288A-0" />
         </object>
         <mxCell id="ND0288A-symbol-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" parent="ND0288A-symbol" vertex="1">
           <mxGeometry x="-63.9997" y="-31.9999" width="127.9995" height="63.9997" as="geometry" />
         </mxCell>
-        <mxCell id="iI1ZqhwCMVPx0_Qdi1yx-0" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ND0288A-symbol" source="ND0288A-symbol-2" target="iI1ZqhwCMVPx0_Qdi1yx-1">
+        <mxCell id="iI1ZqhwCMVPx0_Qdi1yx-0" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ND0288A-symbol" source="ND0288A-symbol-2" target="iI1ZqhwCMVPx0_Qdi1yx-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-480" y="-72" as="sourcePoint" />
             <mxPoint x="20" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iI1ZqhwCMVPx0_Qdi1yx-1" value="" style="triangle;whiteSpace=wrap;html=1;rotation=26;fillColor=#000000;" vertex="1" parent="ND0288A-symbol">
+        <mxCell id="iI1ZqhwCMVPx0_Qdi1yx-1" value="" style="triangle;whiteSpace=wrap;html=1;rotation=26;fillColor=#000000;" parent="ND0288A-symbol" vertex="1">
           <mxGeometry x="32.76" y="15.354299999999999" width="32" height="17.82" as="geometry" />
         </mxCell>
         <mxCell id="ND0288A-label" value="Label" style="" parent="ND0288A-0" />
+        <object label="%LabelLines%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;%LabelIndex%" placeholders="1" LabelLines="3" LabelIndex="A" id="u3Q1vgtyY4GxL5ZFzbd--0">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;fontColor=#FF0000;fontSize=10;align=left;" vertex="1" parent="ND0288A-label">
+            <mxGeometry x="-40" y="48" width="80" height="16" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="ND0288A-connfolder" value="Connection" style="" parent="ND0288A-0" />
         <object label="Connection" PipingConnector="Y" LabelConnector="N" SignalConnector="N" Direction="0" AuxiliaryConnector="N" id="ND0288A-connfolder-1">
           <mxCell style="ellipse;html=1;fillColor=none;strokeColor=#00FF00;strokeWidth=1;noLabel=1;" parent="ND0288A-connfolder" vertex="1">
