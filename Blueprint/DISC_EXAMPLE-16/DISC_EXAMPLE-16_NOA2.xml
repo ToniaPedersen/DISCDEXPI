@@ -1,8 +1,8 @@
 <Model name="example" uri="http://www.example.org">
   <Import prefix="Core" source="https://data.dexpi.org/models/2.0.0/Core.xml"/>
-  <Import prefix="DiscProfile" source="http://www.to.define/DiscProfile/0.6.5"/>
+  <Import prefix="DiscProfile" source="http://www.to.define/DiscProfile/0.6.6"/>
   <Import prefix="Plant" source="https://data.dexpi.org/models/2.0.0/Plant.xml"/>
-  <Import prefix="Profile" source="http://www.dexpi.org/specification/Temp/Profile/0.6.5"/>
+  <Import prefix="Profile" source="http://www.dexpi.org/specification/Temp/Profile/0.6.6"/>
   <Object type="Core/EngineeringModel">
     <Components property="ConceptualModel">
       <Object id="PlantModel1" type="Plant/PlantModel">
