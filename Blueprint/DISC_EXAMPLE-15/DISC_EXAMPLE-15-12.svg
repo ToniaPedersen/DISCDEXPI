@@ -410,27 +410,27 @@
         <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(311,57.25)">001</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(307,46)">'SP = ' &amp; </text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(318,50)">'H=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(318,48)">'HH=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(318,61.3)">'L=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(318,63.3)">'LL=' &amp; SignalConveyingFunction:?</text>
       </g>
     </g>
     <g>
       <g>
         <g transform="translate(390,209)">
-          <polygon points="-15.996356,-4.059075 -15.913765,-3.228968 -15.671354,-2.422856 -15.277165,-1.644819 -14.73924,-0.898936 -14.065621,-0.189284 -13.264349,0.480057 -12.343467,1.105008 -11.311017,1.681492 -10.175041,2.205429 -8.94358,2.672741 -7.624678,3.079349 -6.226375,3.421174 -4.756713,3.694138 -3.223736,3.894162 -1.635484,4.017167 0,4.059075 0,4.059075 1.635484,4.017167 3.223736,3.894162 4.756713,3.694138 6.226375,3.421174 7.624678,3.079349 8.94358,2.672741 10.175041,2.205429 11.311017,1.681492 12.343467,1.105008 13.264349,0.480057 14.065621,-0.189284 14.73924,-0.898936 15.277165,-1.644819 15.671354,-2.422856 15.913765,-3.228968 15.996356,-4.059075" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(0,44.044967)"/>
-          <polygon points="15.996356,3.960973 15.913765,3.150986 15.671354,2.3644 15.277165,1.605197 14.73924,0.877359 14.065621,0.184866 13.264349,-0.468299 12.343467,-1.078155 11.311017,-1.64072 10.175041,-2.152013 8.94358,-2.608051 7.624678,-3.004854 6.226375,-3.338439 4.756713,-3.604825 3.223736,-3.80003 1.635484,-3.920073 0,-3.960973 0,-3.960973 -1.635484,-3.920073 -3.223736,-3.80003 -4.756713,-3.604825 -6.226375,-3.338439 -7.624678,-3.004854 -8.94358,-2.608051 -10.175041,-2.152013 -11.311017,-1.64072 -12.343467,-1.078155 -13.264349,-0.468299 -14.065621,0.184866 -14.73924,0.877359 -15.277165,1.605197 -15.671354,2.3644 -15.913765,3.150986 -15.996356,3.960973" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(0,-43.904373)"/>
-          <polygon points="15.996356,-39.980892 15.996356,39.980892 -15.996356,39.980892 -15.996356,-39.980892" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(-0.017495,0.008749)"/>
+          <polygon points="-15.996356,-4.059075 -15.913765,-3.228968 -15.671354,-2.422856 -15.277165,-1.644819 -14.73924,-0.898936 -14.065621,-0.189284 -13.264349,0.480057 -12.343467,1.105008 -11.311017,1.681492 -10.175041,2.205429 -8.94358,2.672741 -7.624678,3.079349 -6.226375,3.421174 -4.756713,3.694138 -3.223736,3.894162 -1.635484,4.017167 0,4.059075 0,4.059075 1.635484,4.017167 3.223736,3.894162 4.756713,3.694138 6.226375,3.421174 7.624678,3.079349 8.94358,2.672741 10.175041,2.205429 11.311017,1.681492 12.343467,1.105008 13.264349,0.480057 14.065621,-0.189284 14.73924,-0.898936 15.277165,-1.644819 15.671354,-2.422856 15.913765,-3.228968 15.996356,-4.059075" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(0,43.919995)"/>
+          <polygon points="15.996356,3.960973 15.913765,3.150986 15.671354,2.3644 15.277165,1.605197 14.73924,0.877359 14.065621,0.184866 13.264349,-0.468299 12.343467,-1.078155 11.311017,-1.64072 10.175041,-2.152013 8.94358,-2.608051 7.624678,-3.004854 6.226375,-3.338439 4.756713,-3.604825 3.223736,-3.80003 1.635484,-3.920073 0,-3.960973 0,-3.960973 -1.635484,-3.920073 -3.223736,-3.80003 -4.756713,-3.604825 -6.226375,-3.338439 -7.624678,-3.004854 -8.94358,-2.608051 -10.175041,-2.152013 -11.311017,-1.64072 -12.343467,-1.078155 -13.264349,-0.468299 -14.065621,0.184866 -14.73924,0.877359 -15.277165,1.605197 -15.671354,2.3644 -15.913765,3.150986 -15.996356,3.960973" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(0,-44.029345)"/>
+          <polygon points="15.996356,-39.980892 15.996356,39.980892 -15.996356,39.980892 -15.996356,-39.980892" stroke="#000000" stroke-width="0.25" stroke-dasharray="none" stroke-dashoffset="0mm" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(-0.017495,-0.116223)"/>
         </g>
       </g>
       <g>
@@ -671,19 +671,19 @@
           </g>
           <g/>
           <g>
-            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(417.2,220.2)">D-20</text>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(417.2,220.2)">?-?</text>
           </g>
           <g>
-            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(424,222.85)">LE</text>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(424,222.85)">?</text>
           </g>
           <g>
-            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(424,227.25)">0008</text>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(424,227.25)">??</text>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(424,234.3)">?</text>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(421.875,217)">'SP = ' &amp; ?</text>
           </g>
         </g>
       </g>
@@ -760,19 +760,19 @@
         <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(470,243.25)">0008</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(466,232)">'SP = ' &amp; </text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(477,236)">'H=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(477,234)">'HH=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(477,247.3)">'L=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(477,249.3)">'LL=' &amp; SignalConveyingFunction:?</text>
       </g>
     </g>
     <g>
@@ -983,19 +983,19 @@
         <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(250,163.25)">0001</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(246,152)">'SP = ' &amp; </text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(257,156)">'H=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(257,154)">'HH=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(257,167.3)">'L=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(257,169.3)">'LL=' &amp; SignalConveyingFunction:?</text>
       </g>
     </g>
     <g>
@@ -1053,7 +1053,7 @@
           <g>
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(297,160) rotate(270)">14″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(300.3,160) rotate(270)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(300.3,160) rotate(270)">  </text>
             </g>
           </g>
           <g>
@@ -1069,7 +1069,7 @@
             <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(276,154.3)">HV10</text>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(273.875,137)">'SP = ' &amp; </text>
           </g>
         </g>
         <g>
@@ -1174,7 +1174,7 @@
             <g/>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(318.875,99)">'SP = ' &amp; </text>
           </g>
         </g>
       </g>
@@ -1230,19 +1230,19 @@
         <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(301,90.25)">0007</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(297,79)">'SP = ' &amp; </text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(308,83)">'H=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(308,81)">'HH=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(308,94.3)">'L=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(308,96.3)">'LL=' &amp; SignalConveyingFunction:?</text>
       </g>
     </g>
     <g>
@@ -1339,7 +1339,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(398.3,290) rotate(270)">D-VF20-0003</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(401.6,290) rotate(270)">14″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(404.9,290) rotate(270)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(404.9,290) rotate(270)">  </text>
             </g>
           </g>
         </g>
@@ -1367,7 +1367,7 @@
           <g/>
           <g/>
           <g>
-            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(425,430.3)"> </text>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(425,430.3)">  </text>
           </g>
           <g>
             <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(434.2,402.2)">D-20</text>
@@ -1382,7 +1382,7 @@
             <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(441,416.3)">ESV20</text>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(438.875,399)">'SP = ' &amp; </text>
           </g>
         </g>
         <g>
@@ -1441,7 +1441,7 @@
             <g/>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(466.875,399)">'SP = ' &amp; </text>
           </g>
         </g>
         <g>
@@ -1467,7 +1467,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(480,430.3)">D-VC20-0001</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(480,433.6)">14″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(480,436.9)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(480,436.9)">  </text>
             </g>
           </g>
         </g>
@@ -1542,7 +1542,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(450.3,442) rotate(270)">D-VB20-0004</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(453.6,442) rotate(270)">12″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(456.9,442) rotate(270)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(456.9,442) rotate(270)">  </text>
             </g>
           </g>
         </g>
@@ -1576,19 +1576,19 @@
         <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(407,385.25)">0006</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(403,374)">'SP = ' &amp; </text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(414,378)">'H=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(414,376)">'HH=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(414,389.3)">'L=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(414,391.3)">'LL=' &amp; SignalConveyingFunction:?</text>
       </g>
     </g>
     <g>
@@ -1651,7 +1651,7 @@
           <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(425,413.15)">M</text>
         </g>
         <g>
-          <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(423,417.8)">FC</text>
+          <g/>
         </g>
       </g>
     </g>
@@ -1680,7 +1680,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(522,430.3)">D-VB20-0001</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(522,433.6)">12″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(522,436.9)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(522,436.9)">  </text>
             </g>
           </g>
         </g>
@@ -1768,7 +1768,7 @@
           <g/>
           <g/>
           <g>
-            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(723,303.3)"> </text>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(723,303.3)">  </text>
           </g>
           <g>
             <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(732.2,275.2)">D-20</text>
@@ -1783,7 +1783,7 @@
             <g/>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(736.875,272)">'SP = ' &amp; </text>
           </g>
         </g>
         <g>
@@ -1823,19 +1823,19 @@
         <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(723,130.25)">0013</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(719,119)">'SP = ' &amp; </text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(730,123)">'H=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(730,121)">'HH=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(730,134.3)">'L=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(730,136.3)">'LL=' &amp; SignalConveyingFunction:?</text>
       </g>
     </g>
     <g>
@@ -1850,7 +1850,7 @@
           <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(723,286.15)">M</text>
         </g>
         <g>
-          <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(721,290.8)">FM</text>
+          <g/>
         </g>
       </g>
     </g>
@@ -2002,7 +2002,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(702,422.3)">D-VB20-0005</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(702,425.6)">12″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(702,428.9)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(702,428.9)">  </text>
             </g>
           </g>
         </g>
@@ -2051,7 +2051,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(590.3,429) rotate(270)">D-VB20-0003</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(593.6,429) rotate(270)">0.5″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(596.9,429) rotate(270)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(596.9,429) rotate(270)">  </text>
             </g>
           </g>
         </g>
@@ -2111,7 +2111,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(615.3,400) rotate(270)">D-VG20-0001</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(618.6,400) rotate(270)">0.5″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(621.9,400) rotate(270)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(621.9,400) rotate(270)">  </text>
             </g>
           </g>
         </g>
@@ -2140,7 +2140,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(626,422.3)">D-VB20-0002</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(626,425.6)">12″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(626,428.9)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(626,428.9)">  </text>
             </g>
           </g>
         </g>
@@ -2179,7 +2179,7 @@
             <g>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(758.3,396) rotate(270)">D-VG20-0002</text>
               <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(761.6,396) rotate(270)">0.5″</text>
-              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(764.9,396) rotate(270)"> </text>
+              <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(764.9,396) rotate(270)">  </text>
             </g>
           </g>
         </g>
@@ -2335,7 +2335,7 @@
             <g/>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(592.875,194)">'SP = ' &amp; </text>
           </g>
         </g>
         <g>
@@ -2396,6 +2396,9 @@
           <g/>
           <g/>
         </g>
+        <g>
+          <g/>
+        </g>
       </g>
       <g>
         <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(515,212.65)">D-20L00011A-0800PL-AS200-</text>
@@ -2439,7 +2442,7 @@
           <g/>
           <g/>
           <g>
-            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(654.3,192) rotate(270)"> </text>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(654.3,192) rotate(270)">  </text>
           </g>
           <g>
             <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(655.2,172.2)">D-20</text>
@@ -2454,7 +2457,7 @@
             <g/>
           </g>
           <g>
-            <g/>
+            <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(659.875,169)">'SP = ' &amp; </text>
           </g>
         </g>
         <g>
@@ -2517,19 +2520,19 @@
         <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="middle" transform="translate(750,350.25)">0004</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" text-anchor="end" transform="translate(746,339)">'SP = ' &amp; </text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(757,343)">'H=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(757,341)">'HH=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(757,354.3)">'L=' &amp; SignalConveyingFunction:?</text>
       </g>
       <g>
-        <g/>
+        <text fill="#0000ff" font-size="3.3px" font-family="Arial" transform="translate(757,356.3)">'LL=' &amp; SignalConveyingFunction:?</text>
       </g>
     </g>
   </g>
