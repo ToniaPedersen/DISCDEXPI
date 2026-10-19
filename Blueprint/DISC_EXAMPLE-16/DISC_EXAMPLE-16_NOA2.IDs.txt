@@ -1,0 +1,5 @@
+identical PersistentIdentifiers
+  6f5fd3f2-448d-dfef-7173-156fb9820fed   PipingNetworkSystem (also used in C01_NOA1)
+  
+different PersistentIdentifiers
+  8c7cf046-2b6b-8843-779c-d2dc021dcd87   FlowOutPipeOffPageConnector (in C01_NOA1 FlowInPipeOffPageConnector)
